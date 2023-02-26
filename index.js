@@ -38,6 +38,7 @@ function populateProjects(projects) {
 
         // <img> overlay
         var cardImageOverlay = document.createElement("img");
+        cardImageOverlay.style.-webkit-filter = "drop-shadow(1px 0px 1px #666666)";
         cardImageOverlay.style.bottom = 0;
         cardImageOverlay.style.right = 0;
         cardImageOverlay.style.maxHeight = "64px";
