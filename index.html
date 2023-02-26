@@ -1,7 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <!-- HTML meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Timothy Cope - <%= title %></title>
+    <!-- Open Graph Markup -->
+    <meta name="author" property="og:author" content="Timothy Cope">
+    <meta name="description" property="og:description" content="A portfolio site showcasing the talents of Timothy Cope.">
+    <meta property="og:image" content="/img/preview-01.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Timothy Cope" />
+    <meta property="og:type" content="website" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="/index.css" rel="stylesheet">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Header -->
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <!-- Internal Links -->
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <!-- About -->
+                        <a href="/about" title="About" style="text-decoration: none;"><h4 class="text-white">About</h4></a>
+                        <p class="text-muted">Find out more about Timothy Cope</p>
+                        <!-- CliftonStrengths -->
+                        <a style="text-decoration: none;"><h4 class="text-white">CliftonStrengths</h4></a>
+                        <p class="text-muted">Achiever | Learner | Responsibility | Harmony | Consistency</p>
+                    </div>
+                    <!-- External Links -->
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Links</h4>
+                        <ul class="list-unstyled navbar-dark">
+                            <li style="color: #fff;"><a title="Email Timothy" href="mailto:kirbycope@gmail.com" class="d-flex align-items-center navbar-brand text-white"><i data-feather="mail" style="margin-right:.25rem;"></i>Email Timothy</a></li>
+                            <li style="color: #fff;"><a title="Link to GitHub" href="//github.com/kirbycope" class="d-flex align-items-center navbar-brand text-white"><i data-feather="github" style="margin-right:.25rem;"></i>GitHub Profile</a></li>
+                            <li style="color: #fff;"><a title="Link to LinkedIn" href="//www.linkedin.com/pub/timothy-cope/5a/10b/901" class="d-flex align-items-center navbar-brand text-white"><i data-feather="linkedin" style="margin-right:.25rem;"></i>LinkedIn Profile</a></li>
+                            <li style="color: #fff;"><a title="Link to StackExchange" href="//sqa.stackexchange.com/users/11015/kirbycope" class="d-flex align-items-center navbar-brand text-white"><i data-feather="aperture" style="margin-right:.25rem;"></i>StackExchange Profile</a></li>
+                            <li style="color: #fff;"><a title="Link to YouTube" href="//www.youtube.com/c/TimothyCopedotcom" class="d-flex align-items-center navbar-brand text-white"><i data-feather="youtube" style="margin-right:.25rem;"></i>YouTube Channel</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="/" title="Home" class="navbar-brand d-flex align-items-center">
+                    <i data-feather="life-buoy" style="margin-right:.25rem;"></i>
+                    <strong>Timothy Cope</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main role="main">
+        <!-- Call To Action -->
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Experience Summary</h1>
+                <p class="lead text-muted">
+                    More than 14 years of programming and quality assurance experience.<br />
+                    Experience in Agency, Enterprise, Government, and Start-up.<br />
+                    Support projects with millions of users and billions in transactions.
+                </p>
+            </div>
+        </section>
+        <!-- Project Cards -->
+        <div class="album py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="jumbotron-heading">PORTFOLIO</h2>
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> All</button>
+                    <button class="btn" onclick="filterSelection('game')"> Games</button>
+                    <button class="btn" onclick="filterSelection('pi')"> Raspberry Pi</button>
+                    <button class="btn" onclick="filterSelection('test')"> Tests</button>
+                </div>
+            </div>
+            </br>
+            <div class="container">
+                <div class="row" id="projects">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a title="Back to top" href="#">Back to top</a>
+            </p>
+            <p>&copy; 2023 Timothy Cope</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.10.0/feather.min.js"></script>
+    <!-- Replace 'feather' icons -->
+    <script>feather.replace()</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/holder/2.9.6/holder.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/index.js"></script>
 </body>
 </html>
