@@ -203,9 +203,8 @@ window.onload = function () {
     // Populate the page
     $.getJSON("projects.json", function(data){
         populateProjects(data);
+        // https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
+        filterSelection("all");
     });
-
-    // https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
-    filterSelection("all");
 
 };
