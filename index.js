@@ -33,7 +33,7 @@ function populateProjects(projects) {
         cardImageTop.classList.add("card-img-top");
         cardImageTop.style.display = "block";
         cardImageTop.setAttribute("data-src", "holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail");
-        cardImageTop.setAttribute("src", "/public/img/projects/" + projects[i].thumbnail);
+        cardImageTop.setAttribute("src", "/img/projects/" + projects[i].thumbnail);
         cardImageLink.appendChild(cardImageTop);
 
         // <img> overlay
