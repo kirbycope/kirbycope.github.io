@@ -1,5 +1,5 @@
 /** Populates the Projects cards on the page. */
-function populateProjects() {
+function populateProjects(projects) {
     for (var i = 0; i < projects.length; i++) {
 
         // <div class="col-md-4">
