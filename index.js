@@ -44,52 +44,52 @@ function populateProjects(projects) {
         cardImageOverlay.style.marginLeft = "64px";
         cardImageOverlay.style.position = "absolute";
         if (projects[i].small.indexOf("MCAddon") !== -1 || projects[i].small.indexOf("MCTemplate") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/minecraft_bedrock.png");
+            cardImageOverlay.setAttribute("src", "/img/minecraft_bedrock.png");
         }
         else if (projects[i].small.indexOf("MCFunction") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/minecraft_java.png");
+            cardImageOverlay.setAttribute("src", "/img/minecraft_java.png");
         }
         else if (projects[i].small.indexOf("Angular") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/angular.png");
+            cardImageOverlay.setAttribute("src", "/img/angular.png");
         }
         else if (projects[i].small.indexOf("Bash") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/bash.png");
+            cardImageOverlay.setAttribute("src", "/img/bash.png");
         }
         else if (projects[i].small.indexOf("C#") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/csharp.png");
+            cardImageOverlay.setAttribute("src", "/img/csharp.png");
         }
         else if (projects[i].small.indexOf("Creation Kit") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/creation_kit_white.png");
+            cardImageOverlay.setAttribute("src", "/img/creation_kit_white.png");
         }
         else if (projects[i].small.indexOf("Java") !== -1 && projects[i].small.indexOf("JavaScript") == -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/java.png");
+            cardImageOverlay.setAttribute("src", "/img/java.png");
         }
         else if (projects[i].small.indexOf("JavaScript") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/javascript.png");
+            cardImageOverlay.setAttribute("src", "/img/javascript.png");
         }
         else if (projects[i].small.indexOf("Node") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/nodejs.png");
+            cardImageOverlay.setAttribute("src", "/img/nodejs.png");
         }
         else if (projects[i].small.indexOf("PowerShell") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/powershell.png");
+            cardImageOverlay.setAttribute("src", "/img/powershell.png");
         }
         else if (projects[i].small.indexOf("Python") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/python.png");
+            cardImageOverlay.setAttribute("src", "/img/python.png");
         }
         else if (projects[i].small.indexOf("React") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/react.png");
+            cardImageOverlay.setAttribute("src", "/img/react.png");
         }
         else if (projects[i].small.indexOf("TI-BASIC") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/ti-basic.png");
+            cardImageOverlay.setAttribute("src", "/img/ti-basic.png");
         }
         else if (projects[i].small.indexOf("TypeScript") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/typescript.png");
+            cardImageOverlay.setAttribute("src", "/img/typescript.png");
         }
         else if (projects[i].small.indexOf("WordPress") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/wordpress.png");
+            cardImageOverlay.setAttribute("src", "/img/wordpress.png");
         }
         else if (projects[i].small.indexOf("Unity") !== -1) {
-            cardImageOverlay.setAttribute("src", "/public/img/unity.png");
+            cardImageOverlay.setAttribute("src", "/img/unity.png");
         }
         cardImageLink.appendChild(cardImageOverlay);
 
