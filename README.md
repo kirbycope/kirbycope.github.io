@@ -18,7 +18,7 @@ Original Source - https://benwiz.com/blog/deploy-github-pages-with-aws-route-53-
 1. Select "Hosted Zone"
 1. Select the domain you entered in the CNAME
 1. Select "Create record"
-   - Record name: ``
+   - Record name: `` (leave blank)
    - Record type: `A – Routes traffic to an IPv4 address and some AWS resources`
    - Alias: `false`
    - Value:
