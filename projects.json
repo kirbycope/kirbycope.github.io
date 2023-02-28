@@ -1,6 +1,15 @@
 [
   {
     "created": "Feb 2023",
+    "thumbnail": "mine-pikmin.png",
+    "title": "Mine Pikmin",
+    "url": "//github.com/kirbycope/mine-pikmin",
+    "text": "A Pikmin mob for Minecraft Bedrock Edition.",
+    "small": "MCAddon",
+    "category": "game"
+  },
+  {
+    "created": "Feb 2023",
     "thumbnail": "timothycope-2023.png",
     "title": "TimothyCope.com",
     "url": "//github.com/kirbycope/kirbycope.github.io",
