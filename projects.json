@@ -4,7 +4,7 @@
     "thumbnail": "tarot-able-unity.png",
     "title": "Tarot-able (Unity)",
     "url": "//github.com/kirbycope/tarot-able-unity",
-    "text": "A tarot card reading app for Unity (2D).",
+    "text": "A tarot card reading app for Unity (2D) with simple animations.",
     "small": "Unity",
     "category": "game"
   },
@@ -13,7 +13,7 @@
     "thumbnail": "tarot-able.png",
     "title": "Tarot-able (Web)",
     "url": "//github.com/kirbycope/tarot-able",
-    "text": "A tarot card reading app with a dictionary.",
+    "text": "A tarot card reading app and dictionary with simple animations.",
     "small": "JavaScript",
     "category": "dev"
   },
