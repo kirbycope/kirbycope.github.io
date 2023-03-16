@@ -1,3 +1,5 @@
+![TimothyCope.com](/img/projects/timothy-cope-2023.png)
+
 # kirbycope.github.io
 A portfolio site hosted on GitHub Pages.
 
