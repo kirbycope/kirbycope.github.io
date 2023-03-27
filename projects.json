@@ -1,6 +1,15 @@
 [
   {
     "created": "Mar 2023",
+    "thumbnail": "MineKart.png",
+    "title": "MineKart",
+    "url": "//github.com/kirbycope/MineKart",
+    "text": "Minecraft meets Mario Kart in this multiplayer mash-up.",
+    "small": "MCAddon",
+    "category": "game"
+  },
+  {
+    "created": "Mar 2023",
     "thumbnail": "tarot-able-unity.png",
     "title": "Tarot-able (Unity)",
     "url": "//github.com/kirbycope/tarot-able-unity",
