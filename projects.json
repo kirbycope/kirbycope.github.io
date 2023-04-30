@@ -1,6 +1,15 @@
 [
   {
     "created": "Apr 2023",
+    "thumbnail": "Minecraft-Legends-Mobs-Bedrock.png",
+    "title": "Minecraft Legends Mobs",
+    "url": "//github.com/kirbycope/Minecraft-Legends-Mobs-Bedrock",
+    "text": "All the mobs from Minecraft Legends in Minecraft Bedrock Edition.",
+    "small": "MCAddon",
+    "category": "game"
+  },
+  {
+    "created": "Apr 2023",
     "thumbnail": "Minecraft-Earth-Mobs-Bedrock.png",
     "title": "Minecraft Earth Mobs",
     "url": "//github.com/kirbycope/Minecraft-Earth-Mobs-Bedrock",
