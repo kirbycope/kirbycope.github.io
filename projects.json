@@ -1,6 +1,15 @@
 [
   {
-    "created": "Jun 2023",
+    "created": "June 2023",
+    "thumbnail": "jenkins-shared-library.png",
+    "title": "Jenkins Shared Library",
+    "url": "//github.com/kirbycope/jenkins-shared-library",
+    "text": "Groovy scripts shared between different Jenkins jobs.",
+    "small": "Groovy",
+    "category": "dev"
+  },
+  {
+    "created": "May 2023",
     "thumbnail": "alttester-instrumenter.png",
     "title": "AltTester Instrumenter",
     "url": "//github.com/kirbycope/AltTester-Instrumenter",
