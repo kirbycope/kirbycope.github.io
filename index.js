@@ -62,6 +62,9 @@ function populateProjects(projects) {
         else if (projects[i].small.indexOf("Creation Kit") !== -1) {
             cardImageOverlay.setAttribute("src", "/img/creation_kit_white.png");
         }
+        else if (projects[i].small.indexOf("Groovy") !== -1) {
+            cardImageOverlay.setAttribute("src", "/img/groovy.png");
+        }
         else if (projects[i].small.indexOf("Java") !== -1 && projects[i].small.indexOf("JavaScript") == -1) {
             cardImageOverlay.setAttribute("src", "/img/java.png");
         }
