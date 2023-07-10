@@ -9,6 +9,15 @@
     "category": "dev"
   },
   {
+    "created": "June 2023",
+    "thumbnail": "EditorWindowWebView.png",
+    "title": "Editor Window Web View",
+    "url": "//github.com/kirbycope/EditorWindowWebView",
+    "text": "A WebView for the Unity EditorWindow.",
+    "small": "Unity",
+    "category": "dev"
+  },
+  {
     "created": "May 2023",
     "thumbnail": "alttester-instrumenter.png",
     "title": "AltTester Instrumenter",
