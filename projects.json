@@ -1,5 +1,23 @@
 [
   {
+    "created": "July 2023",
+    "thumbnail": "alley-cat.png",
+    "title": "Alley Cat",
+    "url": "//github.com/kirbycope/AlleyCat",
+    "text": "The 1984 IBM game reimagined using Unity 3D.",
+    "small": "Unity",
+    "category": "game"
+  },
+  {
+    "created": "July 2023",
+    "thumbnail": "unity-jenkins.png",
+    "title": "Unity Jenkins Pipeline",
+    "url": "//github.com/kirbycope/unity-jenkins",
+    "text": "Build your Unity game using a declarative Jenkins pipeline.",
+    "small": "Groovy",
+    "category": "dev"
+  },
+  {
     "created": "June 2023",
     "thumbnail": "jenkins-shared-library.png",
     "title": "Jenkins Shared Library",
