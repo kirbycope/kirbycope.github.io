@@ -1,5 +1,14 @@
 [
   {
+    "created": "Sep 2023",
+    "thumbnail": "smb-bedrock.png",
+    "title": "Super Mario Bros (Bedrock)",
+    "url": "//github.com/kirbycope/smb-bedrock",
+    "text": "Super Mario Bros for Minecraft Bedrock Edition.",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
     "created": "July 2023",
     "thumbnail": "alley-cat.png",
     "title": "Alley Cat",
