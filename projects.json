@@ -1,6 +1,15 @@
 [
   {
     "created": "Sep 2023",
+    "thumbnail": "smb-java.png",
+    "title": "Super Mario Bros (Java)",
+    "url": "//github.com/kirbycope/smb-java",
+    "text": "Super Mario Brothers for Minecraft Java Edition.",
+    "small": "MCFunction",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2023",
     "thumbnail": "smb-bedrock.png",
     "title": "Super Mario Bros (Bedrock)",
     "url": "//github.com/kirbycope/smb-bedrock",
