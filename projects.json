@@ -1,5 +1,14 @@
 [
   {
+    "created": "Oct 2023",
+    "thumbnail": "crossy-road-java.png",
+    "title": "Crossy Road (Java)",
+    "url": "//github.com/kirbycope/smb-java",
+    "text": "Mysticat's Crossy Road for Minecraft Java Edition.",
+    "small": "MCFunction",
+    "category": "game"
+  },
+  {
     "created": "Sep 2023",
     "thumbnail": "smb-java.png",
     "title": "Super Mario Bros (Java)",
