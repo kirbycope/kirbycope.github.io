@@ -1,9 +1,18 @@
 [
   {
     "created": "Oct 2023",
+    "thumbnail": "crossy-road-bedrock.png",
+    "title": "Crossy Road (Bedrock)",
+    "url": "//github.com/kirbycope/crossy-road-bedrock",
+    "text": "Mysticat's Crossy Road for Minecraft Bedrock Edition.",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2023",
     "thumbnail": "crossy-road-java.png",
     "title": "Crossy Road (Java)",
-    "url": "//github.com/kirbycope/smb-java",
+    "url": "//github.com/kirbycope/crossy-road-java",
     "text": "Mysticat's Crossy Road for Minecraft Java Edition.",
     "small": "MCFunction",
     "category": "game"
