@@ -207,6 +207,15 @@
     "category": "game"
   },
   {
+    "created": "Oct 2023",
+    "thumbnail": "skyblock-four-sticks-bedrock.png",
+    "title": "SkyBlock: Four Sticks (Bedrock)",
+    "url": "//github.com/kirbycope/skyblock-four-sticks-bedrock",
+    "text": "A multiplayer SkyBlock where each player gets an island.",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
     "created": "Jan 2023",
     "thumbnail": "skyblock-four-sticks.png",
     "title": "SkyBlock: Four Sticks",
