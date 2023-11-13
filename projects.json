@@ -1,5 +1,41 @@
 [
   {
+    "created": "Nov 2023",
+    "thumbnail": "one-block-bedrock.png",
+    "title": "One Block (Bedrock)",
+    "url": "//github.com/kirbycope/one-block-bedrock",
+    "text": "Mine a single floating block to build your world and defeat the Ender Dragon.",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2023",
+    "thumbnail": "secret-life-bedrock.png",
+    "title": "Secret Life (Bedrock)",
+    "url": "//github.com/kirbycope/secret-life-java",
+    "text": "Secret Life series map with addon for Minecraft Bedrock Edition.",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2023",
+    "thumbnail": "secret-life-java.png",
+    "title": "Secret Life (Java)",
+    "url": "//github.com/kirbycope/secret-life-java",
+    "text": "Secret Life series map with data pack for Minecraft Java Edition.",
+    "small": "MCFunction",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2023",
+    "thumbnail": "secret-life-datapack.png",
+    "title": "Secret Life (Data Pack)",
+    "url": "//github.com/kirbycope/secret-life-datapack",
+    "text": "Secret Life series data pack for Minecraft Java Edition.",
+    "small": "MCFunction",
+    "category": "game"
+  },
+  {
     "created": "Oct 2023",
     "thumbnail": "crossy-road-bedrock.png",
     "title": "Crossy Road (Bedrock)",
