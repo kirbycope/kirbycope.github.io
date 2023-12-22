@@ -1,6 +1,15 @@
 [
   {
     "created": "Dec 2023",
+    "thumbnail": "cobblemon-bedrock.png",
+    "title": "Cobblemon (Bedrock)",
+    "url": "//github.com/kirbycope/cobblemon-bedrock",
+    "text": "An open-source Pokémon mod ported to Minecraft Bedrock Edition.",
+    "small": "MCAddon",
+    "category": "game"
+  },
+  {
+    "created": "Dec 2023",
     "thumbnail": "bonus-chest-java.png",
     "title": "Bonus Chest (Java)",
     "url": "//github.com/kirbycope/bonus-chest-java",
