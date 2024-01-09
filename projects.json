@@ -1,5 +1,14 @@
 [
   {
+    "created": "Jan 2024",
+    "thumbnail": "playwright-typescript.png",
+    "title": "Playwright TypeScript",
+    "url": "//github.com/kirbycope/playwright-typescript",
+    "text": "An example test automation suite using Playwright and TypeScript.",
+    "small": "TypeScript",
+    "category": "test"
+  },
+  {
     "created": "Dec 2023",
     "thumbnail": "cobblemon-bedrock.png",
     "title": "Cobblemon (Bedrock)",
@@ -699,7 +708,7 @@
     "url": "//github.com/kirbycope/qAspire",
     "text": "A Selenium IDE-like standalone tool.",
     "small": "FX, Java",
-    "category": "tset"
+    "category": "test"
   },
   {
     "created": "Sep 2014",
