@@ -1,4 +1,14 @@
 [
+  
+  {
+    "created": "Jan 2024",
+    "thumbnail": "cypress-javascript.png",
+    "title": "Cypress JavaScript",
+    "url": "//github.com/kirbycope/cypress-javascript",
+    "text": "An example test automation suite using Cypress and JavaScript.",
+    "small": "JavaScript",
+    "category": "test"
+  },
   {
     "created": "Jan 2024",
     "thumbnail": "playwright-typescript.png",
