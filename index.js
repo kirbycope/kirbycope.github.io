@@ -157,7 +157,7 @@ function populateProjects(projects) {
             playLink.classList.add("btn-outline-primary");
             playLink.setAttribute("role", "button");
             playLink.innerText = "Play Game";
-            playLink.href = projects[i].url;
+            playLink.href = projects[i].play;
             buttonGroup.appendChild(playLink);
         
         // <small class="text-muted"></small>
