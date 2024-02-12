@@ -148,6 +148,18 @@ function populateProjects(projects) {
         cardLink.href = projects[i].url;
         buttonGroup.appendChild(cardLink);
 
+        // <a href="#" class="btn btn-sm btn-outline-primary" role="button"></a>
+        if (projects[i].play)
+            var playLink = document.createElement("a");
+            playLink.title = "Play " + projects[i].title;
+            playLink.classList.add("btn");
+            playLink.classList.add("btn-sm");
+            playLink.classList.add("btn-outline-primary");
+            playLink.setAttribute("role", "button");
+            playLink.innerText = "Play Game";
+            playLink.href = projects[i].url;
+            buttonGroup.appendChild(playLink);
+        
         // <small class="text-muted"></small>
         var smallText = document.createElement("small");
         smallText.classList.add("text-muted");

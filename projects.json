@@ -4,6 +4,7 @@
     "thumbnail": "minecraft-godot.png",
     "title": "Minecraft Godot",
     "url": "//github.com/kirbycope/minecraft-godot",
+    "play": "//timothycope.com/minecraft-godot",
     "text": "A demake of Minecraft using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
@@ -13,6 +14,7 @@
     "thumbnail": "zelda-godot.png",
     "title": "Zelda Godot",
     "url": "//github.com/kirbycope/zelda-godot",
+    "play": "//timothycope.com/zelda-godot",
     "text": "A remake of Zelda using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
@@ -130,6 +132,7 @@
     "thumbnail": "alley-cat.png",
     "title": "Alley Cat",
     "url": "//github.com/kirbycope/AlleyCat",
+    "play": "//timothycope.com/AlleyCat",
     "text": "The 1983 Atari game reimagined using Unity 3D.",
     "small": "Unity",
     "category": "game"
