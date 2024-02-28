@@ -1,6 +1,16 @@
 [
   {
     "created": "Feb 2024",
+    "thumbnail": "candy-match.png",
+    "title": "Candy Match",
+    "url": "//github.com/kirbycope/candy-match",
+    "play": "//timothycope.com/candy-match",
+    "text": "A vibrant and addictive match 3 puzzle game.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Feb 2024",
     "thumbnail": "minecraft-godot.png",
     "title": "Minecraft Godot",
     "url": "//github.com/kirbycope/minecraft-godot",
