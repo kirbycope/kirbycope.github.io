@@ -2,6 +2,11 @@
 function populateProjects(projects) {
     for (var i = 0; i < projects.length; i++) {
 
+        // Append #readme to all GitHub URLs
+        if (projects[i].url.indexOf("github") !== -1) {
+            projects[i].url = projects[i].url + "#readme"
+        }
+        
         // <div class="col-md-4">
         var cardContainer = document.createElement("div");
         cardContainer.classList.add("col-md-4");
