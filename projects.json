@@ -2,7 +2,7 @@
   {
     "created": "Mar 2024",
     "thumbnail": "EditorPluginWebView.png",
-    "title": "EditorPlugin WebView",
+    "title": "Editor Plugin Web View",
     "url": "//github.com/kirbycope/EditorPluginWebView",
     "text": "A WebView plugin for the Godot Editor.",
     "small": "Godot",
