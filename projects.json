@@ -1,5 +1,14 @@
 [
   {
+    "created": "Mar 2024",
+    "thumbnail": "EditorPluginWebView.png",
+    "title": "EditorPlugin WebView",
+    "url": "//github.com/kirbycope/EditorPluginWebView",
+    "text": "A WebView plugin for the Godot Editor.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Feb 2024",
     "thumbnail": "candy-match.png",
     "title": "Candy Match",
