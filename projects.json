@@ -4,7 +4,7 @@
     "thumbnail": "EditorPluginWebView.png",
     "title": "Editor Plugin Web View",
     "url": "//github.com/kirbycope/EditorPluginWebView",
-    "text": "A WebView plugin for the Godot Editor.",
+    "text": "A WebView using the Godot EditorPlugin class.",
     "small": "Godot",
     "category": "dev"
   },
@@ -179,7 +179,7 @@
     "thumbnail": "EditorWindowWebView.png",
     "title": "Editor Window Web View",
     "url": "//github.com/kirbycope/EditorWindowWebView",
-    "text": "A WebView for the Unity EditorWindow.",
+    "text": "A WebView using the Unity EditorWindow class.",
     "small": "Unity",
     "category": "dev"
   },
