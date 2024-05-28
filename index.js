@@ -232,4 +232,7 @@ window.onload = function () {
         filterSelection("all");
     });
 
+    // Set the copyright year
+    $("#copyright-year").innerText = new Date().getFullYear();
+
 };
