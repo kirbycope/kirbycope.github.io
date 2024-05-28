@@ -233,6 +233,6 @@ window.onload = function () {
     });
 
     // Set the copyright year
-    $("#copyright-year").innerText = new Date().getFullYear();
+    $('span#copyright-year').text(new Date().getFullYear());
 
 };
