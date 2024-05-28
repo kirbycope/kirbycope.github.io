@@ -162,7 +162,6 @@ function populateProjects(projects) {
         playLink.setAttribute("role", "button");
         playLink.innerText = "Play Game";
         playLink.href = projects[i].play;
-        console.log(playLink.href)
         if (playLink.href.endsWith("undefined") == false)
             buttonGroup.appendChild(playLink);
         
