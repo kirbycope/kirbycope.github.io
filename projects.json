@@ -1,5 +1,13 @@
 [
   {
+    "created": "Jul 2024",
+    "thumbnail": "soccer-bedrock.png",
+    "title": "Soccer Bedrock",
+    "url": "//github.com/kirbycope/soccer-bedrock",
+    "text": "A soccer ball Add-on for Minecraft Bedrock Edition.",
+    "small": "MCAddon",
+    "category": "game"
+  },{
     "created": "Jun 2024",
     "thumbnail": "portal-bedrock.png",
     "title": "Portal Bedrock",
