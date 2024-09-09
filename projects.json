@@ -15,7 +15,7 @@
     "title": "Minecraft: Godot Edition (MCGE)",
     "url": "//github.com/kirbycope/godot-minecraft",
     "play": "//timothycope.com/godot-minecraft",
-    "text": "Minecraft made using the Godot Game Engine.",
+    "text": "Minecraft (2011) made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -60,7 +60,7 @@
     "thumbnail": "portal-bedrock.png",
     "title": "Portal (2007)",
     "url": "//github.com/kirbycope/portal-bedrock",
-    "text": "Portal (PC) using Minecraft Bedrock Edition.",
+    "text": "Portal (PC) made using Minecraft Bedrock Edition.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -89,7 +89,7 @@
     "title": "Minecraft 2D",
     "url": "//github.com/kirbycope/minecraft-godot",
     "play": "//timothycope.com/minecraft-godot",
-    "text": "A demake of Minecraft using the Godot Game Engine.",
+    "text": "A demake of Minecraft (2011) using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
