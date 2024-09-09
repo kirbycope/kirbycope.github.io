@@ -1,5 +1,43 @@
 [
   {
+    "created": "Sep 2024",
+    "thumbnail": "godot-super-mario-bros.png",
+    "title": "Super Mario Bros (Godot)",
+    "url": "//github.com/kirbycope/godot-super-mario-bros",
+    "play": "//timothycope.com/godot-super-mario-bros",
+    "text": "Super Mario Brothers for the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2024",
+    "thumbnail": "godot-minecraft.png",
+    "title": "Minecraft: Godot Edition (MCGE)",
+    "url": "//github.com/kirbycope/godot-minecraft",
+    "play": "//timothycope.com/godot-minecraft",
+    "text": "A 3D sandbox for version 4.3 of the Godot Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Aug 2024",
+    "thumbnail": "godot-4.3-sandbox-3d.png",
+    "title": "Godot 4.3 Sandbox 3D",
+    "url": "//github.com/kirbycope/godot-4.3-sandbox-3d",
+    "text": "A 3D sandbox for version 4.3 of the Godot Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Aug 2024",
+    "thumbnail": "godot-4.2.2-sandbox-3d.png",
+    "title": "Godot 4.2.2 Sandbox 3D",
+    "url": "//github.com/kirbycope/godot-4.2.2-sandbox-3d",
+    "text": "A 3D sandbox for version 4.2.2 of the Godot Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Aug 2024",
     "thumbnail": "godot-4.2.2-sandbox-3d.png",
     "title": "Godot 4.2.2 Sandbox 3D",
