@@ -5,7 +5,7 @@
     "title": "Super Mario Bros. (Godot)",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
     "play": "//timothycope.com/godot-super-mario-bros",
-    "text": "Super Mario Bros made using the Godot Game Engine.",
+    "text": "Super Mario Bros. made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -24,7 +24,7 @@
     "thumbnail": "godot-4.3-sandbox-3d.png",
     "title": "Godot 4.3 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.3-sandbox-3d",
-    "text": "A 3D sandbox for version 4.3 of the Godot Engine.",
+    "text": "A 3D sandbox for v4.3 of the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -33,7 +33,7 @@
     "thumbnail": "godot-4.2.2-sandbox-3d.png",
     "title": "Godot 4.2.2 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.2.2-sandbox-3d",
-    "text": "A 3D sandbox for version 4.2.2 of the Godot Engine.",
+    "text": "A 3D sandbox for v4.2.2 of the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -86,7 +86,7 @@
   {
     "created": "Feb 2024",
     "thumbnail": "minecraft-godot.png",
-    "title": "Minecraft Godot",
+    "title": "Minecraft 2D",
     "url": "//github.com/kirbycope/minecraft-godot",
     "play": "//timothycope.com/minecraft-godot",
     "text": "A demake of Minecraft using the Godot Game Engine.",
@@ -96,10 +96,10 @@
   {
     "created": "Feb 2024",
     "thumbnail": "zelda-godot.png",
-    "title": "Zelda Godot",
+    "title": "The Legend of Zelda",
     "url": "//github.com/kirbycope/zelda-godot",
     "play": "//timothycope.com/zelda-godot",
-    "text": "A remake of Zelda using the Godot Game Engine.",
+    "text": "Zelda made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
