@@ -2,10 +2,10 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-super-mario-bros.png",
-    "title": "Super Mario Bros (Godot)",
+    "title": "Super Mario Bros. (Godot)",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
     "play": "//timothycope.com/godot-super-mario-bros",
-    "text": "Super Mario Brothers for the Godot Game Engine.",
+    "text": "Super Mario Bros made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -15,7 +15,7 @@
     "title": "Minecraft: Godot Edition (MCGE)",
     "url": "//github.com/kirbycope/godot-minecraft",
     "play": "//timothycope.com/godot-minecraft",
-    "text": "A 3D sandbox for version 4.3 of the Godot Engine.",
+    "text": "Minecraft made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
