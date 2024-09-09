@@ -38,15 +38,6 @@
     "category": "game"
   },
   {
-    "created": "Aug 2024",
-    "thumbnail": "godot-4.2.2-sandbox-3d.png",
-    "title": "Godot 4.2.2 Sandbox 3D",
-    "url": "//github.com/kirbycope/godot-4.2.2-sandbox-3d",
-    "text": "A 3D sandbox for version 4.2.2 of the Godot Engine.",
-    "small": "Godot",
-    "category": "game"
-  },
-  {
     "created": "Jul 2024",
     "thumbnail": "display-bedrock.png",
     "title": "Display Blocks and Items",
