@@ -2,10 +2,10 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-super-mario-bros.png",
-    "title": "Super Mario Bros. (1985)",
+    "title": "Super Mario Bros.",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
     "play": "//timothycope.com/godot-super-mario-bros",
-    "text": "Super Mario Bros. (NES) made using the Godot Game Engine.",
+    "text": "Super Mario Bros. (NES, 1995) made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -15,7 +15,7 @@
     "title": "Minecraft: Godot Edition (MCGE)",
     "url": "//github.com/kirbycope/godot-minecraft",
     "play": "//timothycope.com/godot-minecraft",
-    "text": "Minecraft (2011) made using the Godot Game Engine.",
+    "text": "Minecraft (PC, 2011) made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -40,16 +40,16 @@
   {
     "created": "Jul 2024",
     "thumbnail": "display-bedrock.png",
-    "title": "Block and Item Display Entities",
+    "title": "Block and Item Display (Bedrock)",
     "url": "//github.com/kirbycope/display-bedrock",
-    "text": "Block and Item Display Entities for Minecraft Bedrock Edition.",
+    "text": "Block and item display entities for Minecraft Bedrock Edition.",
     "small": "MCAddon",
     "category": "game"
   },
   {
     "created": "Jul 2024",
     "thumbnail": "soccer-bedrock.png",
-    "title": "Soccer Ball",
+    "title": "Soccer Ball (Bedrock)",
     "url": "//github.com/kirbycope/soccer-bedrock",
     "text": "An interactive soccer ball for Minecraft Bedrock Edition.",
     "small": "MCAddon",
@@ -58,9 +58,9 @@
   {
     "created": "Jun 2024",
     "thumbnail": "portal-bedrock.png",
-    "title": "Portal (2007)",
+    "title": "Portal (Bedrock)",
     "url": "//github.com/kirbycope/portal-bedrock",
-    "text": "Portal (PC) made using Minecraft Bedrock Edition.",
+    "text": "Portal (PC, 2007) made using Minecraft Bedrock Edition.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -89,17 +89,17 @@
     "title": "Minecraft 2D",
     "url": "//github.com/kirbycope/minecraft-godot",
     "play": "//timothycope.com/minecraft-godot",
-    "text": "A demake of Minecraft (2011) using the Godot Game Engine.",
+    "text": "A demake of Minecraft (PC 2011) using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
   {
     "created": "Feb 2024",
     "thumbnail": "zelda-godot.png",
-    "title": "The Legend of Zelda (1986)",
+    "title": "The Legend of Zelda",
     "url": "//github.com/kirbycope/zelda-godot",
     "play": "//timothycope.com/zelda-godot",
-    "text": "The Legend of Zelda (NES) made using the Godot Game Engine.",
+    "text": "The Legend of Zelda (NES 1986) made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -214,7 +214,7 @@
   {
     "created": "July 2023",
     "thumbnail": "alley-cat.png",
-    "title": "Alley Cat",
+    "title": "Alley Cat (Unity)",
     "url": "//github.com/kirbycope/AlleyCat",
     "play": "//timothycope.com/AlleyCat",
     "text": "The 1983 Atari game reimagined using Unity 3D.",
@@ -242,7 +242,7 @@
   {
     "created": "June 2023",
     "thumbnail": "EditorWindowWebView.png",
-    "title": "Editor Window Web View",
+    "title": "Editor Window Web View (Unity)",
     "url": "//github.com/kirbycope/EditorWindowWebView",
     "text": "A WebView using the Unity EditorWindow class.",
     "small": "Unity",
@@ -323,7 +323,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "map-markers-java.png",
-    "title": "Map Markers [Java]",
+    "title": "Map Markers (Java)",
     "url": "//github.com/kirbycope/map-markers-java",
     "text": "Use a Python script to create map art in Minecraft Java.",
     "small": "MCFunction",
@@ -341,7 +341,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "item-rush-bedrock.png",
-    "title": "Item Rush [Bedrock]",
+    "title": "Item Rush (Bedrock)",
     "url": "//github.com/kirbycope/item-rush-bedrock",
     "text": "Item Rush game mode for Minecraft Bedrock Edition.",
     "small": "MCTemplate",
@@ -350,7 +350,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "item-rush-java.png",
-    "title": "Item Rush [Java]",
+    "title": "Item Rush (Java)",
     "url": "//github.com/kirbycope/item-rush-java",
     "text": "Item Rush game mode for Minecraft Java Edition.",
     "small": "MCFunction",
@@ -368,7 +368,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "mysticar-bedrock.png",
-    "title": "Mysticar [Bedrock]",
+    "title": "Mysticar (Bedrock)",
     "url": "//github.com/kirbycope/mysticar-bedrock",
     "text": "The Mysticat car for Minecraft Bedrock Edition.",
     "small": "MCTemplate",
@@ -377,7 +377,7 @@
   {
     "created": "Jan 2023",
     "thumbnail": "mysticar-java.png",
-    "title": "Mysticar [Java]",
+    "title": "Mysticar (Java)",
     "url": "//github.com/kirbycope/mysticar-java",
     "text": "The Mysticat car for Minecraft Java Edition.",
     "small": "MCFunction",
@@ -467,7 +467,7 @@
   {
     "created": "Feb 2022",
     "thumbnail": "skyblock-bedrock.png",
-    "title": "SkyBlock [Bedrock]",
+    "title": "SkyBlock (Bedrock)",
     "url": "//github.com/kirbycope/SkyBlock-Bedrock",
     "text": "Skyblock is one of the most popular survival gamemodes.",
     "small": "MCTemplate",
@@ -476,7 +476,7 @@
   {
     "created": "Jan 2022",
     "thumbnail": "skyblock.png",
-    "title": "SkyBlock [Java]",
+    "title": "SkyBlock (Java)",
     "url": "//github.com/kirbycope/SkyBlock",
     "text": "Skyblock is one of the most popular survival gamemodes.",
     "small": "MCFunction",
