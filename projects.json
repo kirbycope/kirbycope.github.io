@@ -1,6 +1,16 @@
 [
   {
     "created": "Sep 2024",
+    "thumbnail": "godot-game-client.png",
+    "title": "Godot Game Client",
+    "url": "//github.com/kirbycope/godot-game-client",
+    "play": "//timothycope.com/godot-game-client",
+    "text": "Download and play games made using the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2024",
     "thumbnail": "godot-super-mario-bros.png",
     "title": "Super Mario Bros.",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
