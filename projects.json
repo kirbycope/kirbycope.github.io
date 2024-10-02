@@ -5,7 +5,7 @@
     "title": "Minecraft: Godot Edition (MCGE)",
     "url": "//github.com/kirbycope/godot-minecraft",
     "play": "//timothycope.com/godot-minecraft",
-    "text": "Minecraft (PC, 2011) made using the Godot Game Engine.",
+    "text": "Minecraft (PC, 2011) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -15,7 +15,7 @@
     "title": "3D Player Controller",
     "url": "//github.com/kirbycope/godot-3d-player-controller",
     "play": "//timothycope.com/godot-3d-player-controller",
-    "text": "A 3D Player Controller for the Godot Game Engine.",
+    "text": "A 3D Player Controller for the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -25,7 +25,7 @@
     "title": "Super Mario Bros.",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
     "play": "//timothycope.com/godot-super-mario-bros",
-    "text": "Super Mario Bros. (NES, 1995) made using the Godot Game Engine.",
+    "text": "Super Mario Bros. (NES, 1995) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -35,7 +35,7 @@
     "title": "2D Player Controller",
     "url": "//github.com/kirbycope/godot-2d-player-controller",
     "play": "//timothycope.com/godot-2d-player-controller",
-    "text": "A 2D Player Controller for the Godot Game Engine.",
+    "text": "A 2D Player Controller for the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -45,7 +45,7 @@
     "title": "Godot Game Client",
     "url": "//github.com/kirbycope/godot-game-client",
     "play": "//timothycope.com/godot-game-client",
-    "text": "Download and play games made using the Godot Game Engine.",
+    "text": "Download and play games made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -54,7 +54,7 @@
     "thumbnail": "godot-4.3-sandbox-3d.png",
     "title": "Godot 4.3 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.3-sandbox-3d",
-    "text": "A 3D sandbox for v4.3 of the Godot Game Engine.",
+    "text": "A 3D sandbox for v4.3 of the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -63,7 +63,7 @@
     "thumbnail": "godot-4.2.2-sandbox-3d.png",
     "title": "Godot 4.2.2 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.2.2-sandbox-3d",
-    "text": "A 3D sandbox for v4.2.2 of the Godot Game Engine.",
+    "text": "A 3D sandbox for v4.2.2 of the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -119,7 +119,7 @@
     "title": "Minecraft 2D",
     "url": "//github.com/kirbycope/minecraft-godot",
     "play": "//timothycope.com/minecraft-godot",
-    "text": "A demake of Minecraft (PC 2011) using the Godot Game Engine.",
+    "text": "A demake of Minecraft (PC 2011) using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -129,7 +129,7 @@
     "title": "The Legend of Zelda",
     "url": "//github.com/kirbycope/zelda-godot",
     "play": "//timothycope.com/zelda-godot",
-    "text": "The Legend of Zelda (NES 1986) made using the Godot Game Engine.",
+    "text": "The Legend of Zelda (NES 1986) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -247,7 +247,7 @@
     "title": "Alley Cat (Godot)",
     "url": "//github.com/kirbycope/godot-alley-cat",
     "play": "//timothycope.com/godot-alley-cat",
-    "text": "Alley Cat remade for the Godot Game Engine.",
+    "text": "Alley Cat (PC, 1983) remade for the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -257,7 +257,7 @@
     "title": "Alley Cat (Unity)",
     "url": "//github.com/kirbycope/AlleyCat",
     "play": "//timothycope.com/AlleyCat",
-    "text": "The 1983 Atari game reimagined using Unity 3D.",
+    "text": "Alley Cat (PC, 1983) remade for the Unity game engine.",
     "small": "Unity",
     "category": "game"
   },
