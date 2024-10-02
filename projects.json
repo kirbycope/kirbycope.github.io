@@ -1,16 +1,6 @@
 [
   {
     "created": "Sep 2024",
-    "thumbnail": "godot-game-client.png",
-    "title": "Godot Game Client",
-    "url": "//github.com/kirbycope/godot-game-client",
-    "play": "//timothycope.com/godot-game-client",
-    "text": "Download and play games made using the Godot Game Engine.",
-    "small": "Godot",
-    "category": "game"
-  },
-  {
-    "created": "Sep 2024",
     "thumbnail": "godot-super-mario-bros.png",
     "title": "Super Mario Bros.",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
@@ -26,6 +16,36 @@
     "url": "//github.com/kirbycope/godot-minecraft",
     "play": "//timothycope.com/godot-minecraft",
     "text": "Minecraft (PC, 2011) made using the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2024",
+    "thumbnail": "godot-3d-player-controller.png",
+    "title": "3D Player Controller",
+    "url": "//github.com/kirbycope/godot-3d-player-controller",
+    "play": "//timothycope.com/godot-3d-player-controller",
+    "text": "A 3D Player Controller for the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2024",
+    "thumbnail": "960x540.png",
+    "title": "2D Player Controller",
+    "url": "//github.com/kirbycope/godot-2d-player-controller",
+    "play": "//timothycope.com/godot-2d-player-controller",
+    "text": "A 2D Player Controller for the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2024",
+    "thumbnail": "godot-game-client.png",
+    "title": "Godot Game Client",
+    "url": "//github.com/kirbycope/godot-game-client",
+    "play": "//timothycope.com/godot-game-client",
+    "text": "Download and play games made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -219,6 +239,16 @@
     "url": "//github.com/kirbycope/smb-bedrock",
     "text": "Super Mario Brothers for Minecraft Bedrock Edition.",
     "small": "MCTemplate",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2024",
+    "thumbnail": "godot-alley-cat.png",
+    "title": "Alley Cat (Godot)",
+    "url": "//github.com/kirbycope/godot-alley-cat",
+    "play": "//timothycope.com/godot-alley-cat",
+    "text": "Alley Cat remade for the Godot Game Engine.",
+    "small": "Godot",
     "category": "game"
   },
   {
