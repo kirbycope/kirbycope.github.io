@@ -1,16 +1,6 @@
 [
   {
     "created": "Sep 2024",
-    "thumbnail": "godot-super-mario-bros.png",
-    "title": "Super Mario Bros.",
-    "url": "//github.com/kirbycope/godot-super-mario-bros",
-    "play": "//timothycope.com/godot-super-mario-bros",
-    "text": "Super Mario Bros. (NES, 1995) made using the Godot Game Engine.",
-    "small": "Godot",
-    "category": "game"
-  },
-  {
-    "created": "Sep 2024",
     "thumbnail": "godot-minecraft.png",
     "title": "Minecraft: Godot Edition (MCGE)",
     "url": "//github.com/kirbycope/godot-minecraft",
@@ -26,6 +16,16 @@
     "url": "//github.com/kirbycope/godot-3d-player-controller",
     "play": "//timothycope.com/godot-3d-player-controller",
     "text": "A 3D Player Controller for the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2024",
+    "thumbnail": "godot-super-mario-bros.png",
+    "title": "Super Mario Bros.",
+    "url": "//github.com/kirbycope/godot-super-mario-bros",
+    "play": "//timothycope.com/godot-super-mario-bros",
+    "text": "Super Mario Bros. (NES, 1995) made using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
