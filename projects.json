@@ -1,6 +1,16 @@
 [
   {
     "created": "Sep 2024",
+    "thumbnail": "godot-alley-cat.png",
+    "title": "Alley Cat (Godot)",
+    "url": "//github.com/kirbycope/godot-alley-cat",
+    "play": "//timothycope.com/godot-alley-cat",
+    "text": "Alley Cat (PC, 1983) remade for the Godot game engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2024",
     "thumbnail": "godot-super-mario-bros.png",
     "title": "Super Mario Bros.",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
@@ -207,6 +217,15 @@
   },
   {
     "created": "Oct 2023",
+    "thumbnail": "skyblock-four-sticks-bedrock.png",
+    "title": "SkyBlock: Four Sticks (Bedrock)",
+    "url": "//github.com/kirbycope/skyblock-four-sticks-bedrock",
+    "text": "A multiplayer SkyBlock where each player gets an island.",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2023",
     "thumbnail": "crossy-road-bedrock.png",
     "title": "Crossy Road (Bedrock)",
     "url": "//github.com/kirbycope/crossy-road-bedrock",
@@ -239,16 +258,6 @@
     "url": "//github.com/kirbycope/smb-bedrock",
     "text": "Super Mario Brothers for Minecraft Bedrock Edition.",
     "small": "MCTemplate",
-    "category": "game"
-  },
-  {
-    "created": "Sep 2024",
-    "thumbnail": "godot-alley-cat.png",
-    "title": "Alley Cat (Godot)",
-    "url": "//github.com/kirbycope/godot-alley-cat",
-    "play": "//timothycope.com/godot-alley-cat",
-    "text": "Alley Cat (PC, 1983) remade for the Godot game engine.",
-    "small": "Godot",
     "category": "game"
   },
   {
@@ -421,15 +430,6 @@
     "url": "//github.com/kirbycope/mysticar-java",
     "text": "The Mysticat car for Minecraft Java Edition.",
     "small": "MCFunction",
-    "category": "game"
-  },
-  {
-    "created": "Oct 2023",
-    "thumbnail": "skyblock-four-sticks-bedrock.png",
-    "title": "SkyBlock: Four Sticks (Bedrock)",
-    "url": "//github.com/kirbycope/skyblock-four-sticks-bedrock",
-    "text": "A multiplayer SkyBlock where each player gets an island.",
-    "small": "MCTemplate",
     "category": "game"
   },
   {
