@@ -1,5 +1,14 @@
 [
   {
+    "created": "Oct 2024",
+    "thumbnail": "godot-python-opencv.png",
+    "title": "Godot Python OpenCV",
+    "url": "//github.com/kirbycope/godot-python-opencv",
+    "text": "Use OpenCV and PyInstaller to display the webcam video in a Godot Scene.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Sep 2024",
     "thumbnail": "godot-alley-cat.png",
     "title": "Alley Cat (Godot)",
