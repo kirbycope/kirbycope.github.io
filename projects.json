@@ -1,5 +1,15 @@
 [
   {
+    "created": "Nov 2024",
+    "thumbnail": "godot-javascript-opencv.png",
+    "title": "Godot JavaScript OpenCV",
+    "url": "//github.com/kirbycope/godot-javascript-opencv",
+    "play": "//timothycope.com/godot-javascript-opencv",
+    "text": "Use OpenCV.js to display the webcam video in a Godot Scene.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Oct 2024",
     "thumbnail": "godot-python-opencv.png",
     "title": "Godot Python OpenCV",
