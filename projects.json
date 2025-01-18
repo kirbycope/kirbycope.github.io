@@ -1,5 +1,15 @@
 [
   {
+    "created": "Jan 2025",
+    "thumbnail": "godot-tuscany-demo.png",
+    "title": "Tuscany Demo",
+    "url": "//github.com/kirbycope/godot-tuscany-demo",
+    "play": "//timothycope.com/godot-tuscany-demo",
+    "text": "Tuscany Demo (Oculus, 2013) made using the Godot game engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Dec 2024",
     "thumbnail": "godot-animal-crossing.png",
     "title": "Animal Crossing",
