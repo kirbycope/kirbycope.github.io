@@ -1,5 +1,15 @@
 [
   {
+    "created": "Feb 2025",
+    "thumbnail": "godot-super-mario-64.png",
+    "title": "Super Mario 64",
+    "url": "//github.com/kirbycope/godot-super-mario-64",
+    "play": "//timothycope.com/godot-super-mario-64",
+    "text": "A remake of Super Mario 64 using the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Jan 2025",
     "thumbnail": "godotsteam-multiplayerpeer-example-3d.png",
     "title": "GodotSteam MultiplayerPeer 3D",
