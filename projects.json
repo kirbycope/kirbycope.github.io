@@ -2,10 +2,10 @@
   {
     "created": "Feb 2025",
     "thumbnail": "godot-super-mario-64.png",
-    "title": "Super Mario 64",
+    "title": "Super Mario 64 Opening Scene",
     "url": "//github.com/kirbycope/godot-super-mario-64",
     "play": "//timothycope.com/godot-super-mario-64",
-    "text": "A remake of Super Mario 64 using the Godot Game Engine.",
+    "text": "A remake of Super Mario 64's opening scene using the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
