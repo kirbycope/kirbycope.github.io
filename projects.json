@@ -1,6 +1,15 @@
 [
   {
     "created": "Feb 2025",
+    "thumbnail": "godot-shrek.png",
+    "title": "Shrek (Movie) Opening Scene",
+    "url": "//github.com/kirbycope/godot-shrek",
+    "text": "The opening scene for Shrek (2001) in the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Feb 2025",
     "thumbnail": "godot-super-mario-64.png",
     "title": "Super Mario 64 Opening Scene",
     "url": "//github.com/kirbycope/godot-super-mario-64",
