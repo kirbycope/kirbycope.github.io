@@ -1,6 +1,16 @@
 [
   {
     "created": "Feb 2025",
+    "thumbnail": "godot-shrek-thriller.png",
+    "title": "Shrek Thriller (1982) Dance",
+    "url": "//github.com/kirbycope/godot-shrek-thriller",
+    "play": "//timothycope.com/godot-shrek-thriller",
+    "text": "Shrek performs the Thriller (1982) dance in the Godot Game Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Feb 2025",
     "thumbnail": "godot-shrek.png",
     "title": "Shrek (Movie) Opening Scene",
     "url": "//github.com/kirbycope/godot-shrek",
