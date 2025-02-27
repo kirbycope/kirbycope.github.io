@@ -1,6 +1,16 @@
 [
   {
     "created": "Feb 2025",
+    "thumbnail": "godot-tensura.png",
+    "title": "That Time I Got Reincarnated as a Slime",
+    "url": "//github.com/kirbycope/godot-tensura",
+    "play": "//timothycope.com/godot-tensura",
+    "text": "That Time I Got Reincarnated as a Slime (2018) in the Godot Engine.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Feb 2025",
     "thumbnail": "godot-shrek-thriller.png",
     "title": "Shrek Thriller (1982) Dance",
     "url": "//github.com/kirbycope/godot-shrek-thriller",
