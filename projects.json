@@ -15,7 +15,7 @@
     "title": "Shrek Thriller Dance",
     "url": "//github.com/kirbycope/godot-shrek-thriller",
     "play": "//timothycope.com/godot-shrek-thriller",
-    "text": "Shrek performs the Thriller (1982) dance in the Godot Game Engine.",
+    "text": "Shrek performs the Thriller (1982) dance in the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -24,7 +24,7 @@
     "thumbnail": "godot-shrek.png",
     "title": "Shrek Opening Scene",
     "url": "//github.com/kirbycope/godot-shrek",
-    "text": "The opening scene of Shrek (2001) in the Godot Game Engine.",
+    "text": "The opening scene of Shrek (2001) in the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -69,10 +69,10 @@
   {
     "created": "Dec 2024",
     "thumbnail": "godot-animal-crossing.png",
-    "title": "Animal Crossing",
+    "title": "Animal Crossing Opening Scene",
     "url": "//github.com/kirbycope/godot-animal-crossing",
     "play": "//timothycope.com/godot-animal-crossing",
-    "text": "Animal Crossing: New Leaf (DS, 2012) made using the Godot game engine.",
+    "text": "The opening scene of Animal Crossing: New Leaf (DS, 2012) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
