@@ -79,10 +79,10 @@
   {
     "created": "Nov 2024",
     "thumbnail": "godot-portal.png",
-    "title": "Portal",
+    "title": "Portal Opening Scene",
     "url": "//github.com/kirbycope/godot-portal",
     "play": "//timothycope.com/godot-portal",
-    "text": "Portal (PC, 2007) made using the Godot game engine.",
+    "text": "The opening scene of Portal (PC, 2007) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
