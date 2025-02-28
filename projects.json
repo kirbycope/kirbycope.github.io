@@ -2,7 +2,7 @@
   {
     "created": "Feb 2025",
     "thumbnail": "godot-tensura.png",
-    "title": "That Time I Got Reincarnated as a Slime",
+    "title": "That Time I Recreated a Slime",
     "url": "//github.com/kirbycope/godot-tensura",
     "play": "//timothycope.com/godot-tensura",
     "text": "That Time I Got Reincarnated as a Slime (2018) in the Godot Engine.",
@@ -12,7 +12,7 @@
   {
     "created": "Feb 2025",
     "thumbnail": "godot-shrek-thriller.png",
-    "title": "Shrek Thriller (1982) Dance",
+    "title": "Shrek Thriller Dance",
     "url": "//github.com/kirbycope/godot-shrek-thriller",
     "play": "//timothycope.com/godot-shrek-thriller",
     "text": "Shrek performs the Thriller (1982) dance in the Godot Game Engine.",
@@ -22,9 +22,9 @@
   {
     "created": "Feb 2025",
     "thumbnail": "godot-shrek.png",
-    "title": "Shrek (Movie) Opening Scene",
+    "title": "Shrek Opening Scene",
     "url": "//github.com/kirbycope/godot-shrek",
-    "text": "The opening scene for Shrek (2001) in the Godot Game Engine.",
+    "text": "The opening scene of Shrek (2001) in the Godot Game Engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -34,7 +34,7 @@
     "title": "Super Mario 64 Opening Scene",
     "url": "//github.com/kirbycope/godot-super-mario-64",
     "play": "//timothycope.com/godot-super-mario-64",
-    "text": "A remake of Super Mario 64's opening scene using the Godot Game Engine.",
+    "text": "The opening scene of Super Mario 64 (N64, 1996) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -62,7 +62,7 @@
     "title": "Tuscany Demo",
     "url": "//github.com/kirbycope/godot-tuscany-demo",
     "play": "//timothycope.com/godot-tuscany-demo",
-    "text": "Tuscany Demo (Oculus, 2013) made using the Godot game engine.",
+    "text": "Tuscany Demo (s, 2013) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
