@@ -79,10 +79,10 @@
   {
     "created": "Nov 2024",
     "thumbnail": "godot-portal.png",
-    "title": "Portal Opening Scene",
+    "title": "Portal Test Chamber 00",
     "url": "//github.com/kirbycope/godot-portal",
     "play": "//timothycope.com/godot-portal",
-    "text": "The opening scene of Portal (PC, 2007) made using the Godot game engine.",
+    "text": "The first level of Portal (PC, 2007) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -118,10 +118,10 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-super-mario-bros.png",
-    "title": "Super Mario Bros.",
+    "title": "Super Mario Bros. World 1-1",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
     "play": "//timothycope.com/godot-super-mario-bros",
-    "text": "Super Mario Bros. (NES, 1995) made using the Godot game engine.",
+    "text": "The first level of Super Mario Bros. (NES, 1995) made using the Godot game engine.",
     "small": "Godot",
     "category": "game"
   },
