@@ -41,6 +41,32 @@ function populateProjects(projects) {
         cardImageTop.setAttribute("src", "/img/projects/" + projects[i].thumbnail);
         cardImageLink.appendChild(cardImageTop);
 
+        // <img class="card-img-bottom">
+        if (projects[i].gif !== undefined) {
+            // Add listener to show gif on hover
+            imageWrapper.addEventListener("mouseenter", function() {
+                var thumbnail = this.querySelector('.card-img-top');
+                thumbnail.style.display = "none";
+                var thumbnail = this.querySelector('.card-img-bottom');
+                thumbnail.style.display = "block";
+            });
+            // Add listener to show thumbnail on mouse leave
+            imageWrapper.addEventListener("mouseleave", function() {
+                var thumbnail = this.querySelector('.card-img-top');
+                thumbnail.style.display = "block";
+                var thumbnail = this.querySelector('.card-img-bottom');
+                thumbnail.style.display = "none";
+            });
+            // img class="card-img-bottom" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail">
+            var cardImageBottom = document.createElement("img");
+            cardImageBottom.alt = "Screencapture of " + projects[i].title;
+            cardImageBottom.classList.add("card-img-bottom");
+            cardImageBottom.style.display = "none";
+            cardImageBottom.setAttribute("data-src", "holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail");
+            cardImageBottom.setAttribute("src", "/img/project-gifs/" + projects[i].gif);
+            cardImageLink.appendChild(cardImageBottom);
+        }
+
         // <img> overlay
         var cardImageOverlay = document.createElement("img");
         cardImageOverlay.style.filter = "drop-shadow(1px 0px 1px #666666)";
