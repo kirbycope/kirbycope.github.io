@@ -205,6 +205,7 @@
   {
     "created": "Jul 2024",
     "thumbnail": "display-bedrock.png",
+    "gif": "display-bedrock.gif",
     "title": "Block and Item Display (Bedrock)",
     "url": "//github.com/kirbycope/display-bedrock",
     "text": "Block and item display entities for Minecraft Bedrock Edition.",
@@ -214,6 +215,7 @@
   {
     "created": "Jul 2024",
     "thumbnail": "soccer-bedrock.png",
+    "gif": "soccer-bedrock.gif",
     "title": "Soccer Ball (Bedrock)",
     "url": "//github.com/kirbycope/soccer-bedrock",
     "text": "An interactive soccer ball for Minecraft Bedrock Edition.",
@@ -223,6 +225,7 @@
   {
     "created": "Jun 2024",
     "thumbnail": "portal-bedrock.png",
+    "gif": "portal-bedrock.gif",
     "title": "Portal (Bedrock)",
     "url": "//github.com/kirbycope/portal-bedrock",
     "text": "Portal (PC, 2007) made using Minecraft Bedrock Edition.",
@@ -232,6 +235,7 @@
   {
     "created": "Mar 2024",
     "thumbnail": "EditorPluginWebView.png",
+    "gif": "EditorPluginWebView.gif",
     "title": "Editor Plugin Web View",
     "url": "//github.com/kirbycope/EditorPluginWebView",
     "text": "A WebView using the Godot EditorPlugin class.",
@@ -292,6 +296,7 @@
   {
     "created": "Dec 2023",
     "thumbnail": "cobblemon-bedrock.png",
+    "gif": "cobblemon-bedrock.gif",
     "title": "Cobblemon (Bedrock)",
     "url": "//github.com/kirbycope/cobblemon-bedrock",
     "text": "An open-source Pokémon mod ported to Minecraft Bedrock Edition.",
@@ -310,6 +315,7 @@
   {
     "created": "Nov 2023",
     "thumbnail": "one-block-bedrock.png",
+    "gif": "one-block-bedrock.gif",
     "title": "One Block (Bedrock)",
     "url": "//github.com/kirbycope/one-block-bedrock",
     "text": "Mine a single floating block to build your world and defeat the Ender Dragon.",
