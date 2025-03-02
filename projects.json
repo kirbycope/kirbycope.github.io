@@ -241,6 +241,7 @@
   {
     "created": "Feb 2024",
     "thumbnail": "candy-match.png",
+    "gif": "candy-match.gif",
     "title": "Candy Match",
     "url": "//github.com/kirbycope/candy-match",
     "play": "//timothycope.com/candy-match",
@@ -251,6 +252,7 @@
   {
     "created": "Feb 2024",
     "thumbnail": "minecraft-godot.png",
+    "gif": "minecraft-godot.gif",
     "title": "Minecraft 2D",
     "url": "//github.com/kirbycope/minecraft-godot",
     "play": "//timothycope.com/minecraft-godot",
@@ -261,6 +263,7 @@
   {
     "created": "Feb 2024",
     "thumbnail": "zelda-godot.png",
+    "gif": "zelda-godot.gif",
     "title": "The Legend of Zelda",
     "url": "//github.com/kirbycope/zelda-godot",
     "play": "//timothycope.com/zelda-godot",
