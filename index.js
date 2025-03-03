@@ -41,9 +41,8 @@ function populateProjects(projects) {
         cardImageTop.setAttribute("src", "/img/projects/" + projects[i].thumbnail);
         cardImageLink.appendChild(cardImageTop);
 
-        // <img class="card-img-bottom">
-        if (projects[i].gif !== undefined) {
-            // Add listener to show gif on hover
+        if (projects[i].preview !== undefined) {
+            // Add listener to show preview on hover
             imageWrapper.addEventListener("mouseenter", function() {
                 var thumbnail = this.querySelector('.card-img-top');
                 thumbnail.style.display = "none";
@@ -57,13 +56,18 @@ function populateProjects(projects) {
                 var thumbnail = this.querySelector('.card-img-bottom');
                 thumbnail.style.display = "none";
             });
-            // img class="card-img-bottom" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail">
-            var cardImageBottom = document.createElement("img");
-            cardImageBottom.alt = "Screencapture of " + projects[i].title;
+            // <video autoplay loop muted>
+            var cardImageBottom = document.createElement("video");
             cardImageBottom.classList.add("card-img-bottom");
             cardImageBottom.style.display = "none";
-            cardImageBottom.setAttribute("data-src", "holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail");
-            cardImageBottom.setAttribute("src", "/img/project-gifs/" + projects[i].gif);
+            cardImageBottom.setAttribute("autoplay", "");
+            cardImageBottom.setAttribute("loop", "");
+            cardImageBottom.setAttribute("muted", "");
+            // <source src="..." type="video/mp4">
+            var source = document.createElement("source");
+            source.setAttribute("src", "/img/project-previews/" + projects[i].preview);
+            source.setAttribute("type", "video/mp4");
+            cardImageBottom.appendChild(source);
             cardImageLink.appendChild(cardImageBottom);
         }
 

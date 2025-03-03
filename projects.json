@@ -2,7 +2,7 @@
   {
     "created": "Feb 2025",
     "thumbnail": "godot-tensura.png",
-    "gif": "godot-tensura.gif",
+    "preview": "godot-tensura.mp4",
     "title": "That Time I Recreated a Slime",
     "url": "//github.com/kirbycope/godot-tensura",
     "play": "//timothycope.com/godot-tensura",
@@ -13,7 +13,7 @@
   {
     "created": "Feb 2025",
     "thumbnail": "godot-shrek-thriller.png",
-    "gif": "godot-shrek-thriller.gif",
+    "preview": "godot-shrek-thriller.mp4",
     "title": "Shrek Thriller Dance",
     "url": "//github.com/kirbycope/godot-shrek-thriller",
     "play": "//timothycope.com/godot-shrek-thriller",
@@ -24,7 +24,7 @@
   {
     "created": "Feb 2025",
     "thumbnail": "godot-shrek.png",
-    "gif": "godot-shrek.gif",
+    "preview": "godot-shrek.mp4",
     "title": "Shrek Opening Scene",
     "url": "//github.com/kirbycope/godot-shrek",
     "text": "The opening scene of Shrek (2001) in the Godot game engine.",
@@ -34,7 +34,7 @@
   {
     "created": "Feb 2025",
     "thumbnail": "godot-super-mario-64.png",
-    "gif": "godot-super-mario-64.gif",
+    "preview": "godot-super-mario-64.mp4",
     "title": "Super Mario 64 Opening Scene",
     "url": "//github.com/kirbycope/godot-super-mario-64",
     "play": "//timothycope.com/godot-super-mario-64",
@@ -45,7 +45,7 @@
   {
     "created": "Jan 2025",
     "thumbnail": "godotsteam-multiplayerpeer-example-3d.png",
-    "gif": "godotsteam-multiplayerpeer-example-3d.gif",
+    "preview": "godotsteam-multiplayerpeer-example-3d.mp4",
     "title": "GodotSteam MultiplayerPeer 3D",
     "url": "//github.com/kirbycope/godotsteam-multiplayerpeer-example-3d",
     "text": "A 3D example for GodotSteam MultiplayerPeer.",
@@ -55,7 +55,7 @@
   {
     "created": "Jan 2025",
     "thumbnail": "godotsteam-multiplayerpeer-example-2d.png",
-    "gif": "godotsteam-multiplayerpeer-example-2d.gif",
+    "preview": "godotsteam-multiplayerpeer-example-2d.mp4",
     "title": "GodotSteam MultiplayerPeer 2D",
     "url": "//github.com/kirbycope/godotsteam-multiplayerpeer-example-2d",
     "text": "A 2D example for GodotSteam MultiplayerPeer.",
@@ -65,7 +65,7 @@
   {
     "created": "Jan 2025",
     "thumbnail": "godot-tuscany-demo.png",
-    "gif": "godot-tuscany-demo.gif",
+    "preview": "godot-tuscany-demo.mp4",
     "title": "Tuscany Demo",
     "url": "//github.com/kirbycope/godot-tuscany-demo",
     "play": "//timothycope.com/godot-tuscany-demo",
@@ -76,7 +76,7 @@
   {
     "created": "Dec 2024",
     "thumbnail": "godot-animal-crossing.png",
-    "gif": "godot-animal-crossing.gif",
+    "preview": "godot-animal-crossing.mp4",
     "title": "Animal Crossing Opening Scene",
     "url": "//github.com/kirbycope/godot-animal-crossing",
     "play": "//timothycope.com/godot-animal-crossing",
@@ -87,7 +87,7 @@
   {
     "created": "Nov 2024",
     "thumbnail": "godot-portal.png",
-    "gif": "godot-portal.gif",
+    "preview": "godot-portal.mp4",
     "title": "Portal Test Chamber 00",
     "url": "//github.com/kirbycope/godot-portal",
     "play": "//timothycope.com/godot-portal",
@@ -98,7 +98,7 @@
   {
     "created": "Nov 2024",
     "thumbnail": "godot-javascript-opencv.png",
-    "gif": "godot-javascript-opencv.gif",
+    "preview": "godot-javascript-opencv.mp4",
     "title": "Godot JavaScript OpenCV",
     "url": "//github.com/kirbycope/godot-javascript-opencv",
     "play": "//timothycope.com/godot-javascript-opencv",
@@ -109,7 +109,7 @@
   {
     "created": "Oct 2024",
     "thumbnail": "godot-python-opencv.png",
-    "gif": "godot-python-opencv.gif",
+    "preview": "godot-python-opencv.mp4",
     "title": "Godot Python OpenCV",
     "url": "//github.com/kirbycope/godot-python-opencv",
     "text": "Use OpenCV and Python to display the webcam video in a Godot Scene.",
@@ -119,7 +119,7 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-alley-cat.png",
-    "gif": "godot-alley-cat.gif",
+    "preview": "godot-alley-cat.mp4",
     "title": "Alley Cat",
     "url": "//github.com/kirbycope/godot-alley-cat",
     "play": "//timothycope.com/godot-alley-cat",
@@ -130,7 +130,7 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-super-mario-bros.png",
-    "gif": "godot-super-mario-bros.gif",
+    "preview": "godot-super-mario-bros.mp4",
     "title": "Super Mario Bros. World 1-1",
     "url": "//github.com/kirbycope/godot-super-mario-bros",
     "play": "//timothycope.com/godot-super-mario-bros",
@@ -141,7 +141,7 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-minecraft.png",
-    "gif": "godot-minecraft.gif",
+    "preview": "godot-minecraft.mp4",
     "title": "Minecraft: Godot Edition (MCGE)",
     "url": "//github.com/kirbycope/godot-minecraft",
     "play": "//timothycope.com/godot-minecraft",
@@ -152,7 +152,7 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-2d-player-controller.png",
-    "gif": "godot-2d-player-controller.gif",
+    "preview": "godot-2d-player-controller.mp4",
     "title": "Godot 2D Player Controller",
     "url": "//github.com/kirbycope/godot-2d-player-controller",
     "play": "//timothycope.com/godot-2d-player-controller",
@@ -163,7 +163,7 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-3d-player-controller.png",
-    "gif": "godot-3d-player-controller.gif",
+    "preview": "godot-3d-player-controller.mp4",
     "title": "Godot 3D Player Controller",
     "url": "//github.com/kirbycope/godot-3d-player-controller",
     "play": "//timothycope.com/godot-3d-player-controller",
@@ -174,7 +174,7 @@
   {
     "created": "Sep 2024",
     "thumbnail": "godot-game-client.png",
-    "gif": "godot-game-client.gif",
+    "preview": "godot-game-client.mp4",
     "title": "Godot Game Client",
     "url": "//github.com/kirbycope/godot-game-client",
     "play": "//timothycope.com/godot-game-client",
@@ -185,7 +185,7 @@
   {
     "created": "Aug 2024",
     "thumbnail": "godot-4.3-sandbox-3d.png",
-    "gif": "godot-4.3-sandbox-3d.gif",
+    "preview": "godot-4.3-sandbox-3d.mp4",
     "title": "Godot 4.3 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.3-sandbox-3d",
     "text": "A 3D sandbox for v4.3 of the Godot game engine.",
@@ -195,7 +195,7 @@
   {
     "created": "Aug 2024",
     "thumbnail": "godot-4.2.2-sandbox-3d.png",
-    "gif": "godot-4.2.2-sandbox-3d.gif",
+    "preview": "godot-4.2.2-sandbox-3d.mp4",
     "title": "Godot 4.2.2 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.2.2-sandbox-3d",
     "text": "A 3D sandbox for v4.2.2 of the Godot game engine.",
@@ -205,7 +205,6 @@
   {
     "created": "Jul 2024",
     "thumbnail": "display-bedrock.png",
-    "gif": "display-bedrock.gif",
     "title": "Block and Item Display (Bedrock)",
     "url": "//github.com/kirbycope/display-bedrock",
     "text": "Block and item display entities for Minecraft Bedrock Edition.",
@@ -215,7 +214,6 @@
   {
     "created": "Jul 2024",
     "thumbnail": "soccer-bedrock.png",
-    "gif": "soccer-bedrock.gif",
     "title": "Soccer Ball (Bedrock)",
     "url": "//github.com/kirbycope/soccer-bedrock",
     "text": "An interactive soccer ball for Minecraft Bedrock Edition.",
@@ -225,7 +223,6 @@
   {
     "created": "Jun 2024",
     "thumbnail": "portal-bedrock.png",
-    "gif": "portal-bedrock.gif",
     "title": "Portal (Bedrock)",
     "url": "//github.com/kirbycope/portal-bedrock",
     "text": "Portal (PC, 2007) made using Minecraft Bedrock Edition.",
@@ -235,7 +232,6 @@
   {
     "created": "Mar 2024",
     "thumbnail": "EditorPluginWebView.png",
-    "gif": "EditorPluginWebView.gif",
     "title": "Editor Plugin Web View",
     "url": "//github.com/kirbycope/EditorPluginWebView",
     "text": "A WebView using the Godot EditorPlugin class.",
@@ -245,7 +241,7 @@
   {
     "created": "Feb 2024",
     "thumbnail": "candy-match.png",
-    "gif": "candy-match.gif",
+    "preview": "candy-match.mp4",
     "title": "Candy Match",
     "url": "//github.com/kirbycope/candy-match",
     "play": "//timothycope.com/candy-match",
@@ -256,7 +252,7 @@
   {
     "created": "Feb 2024",
     "thumbnail": "minecraft-godot.png",
-    "gif": "minecraft-godot.gif",
+    "preview": "minecraft-godot.mp4",
     "title": "Minecraft 2D",
     "url": "//github.com/kirbycope/minecraft-godot",
     "play": "//timothycope.com/minecraft-godot",
@@ -267,7 +263,7 @@
   {
     "created": "Feb 2024",
     "thumbnail": "zelda-godot.png",
-    "gif": "zelda-godot.gif",
+    "preview": "zelda-godot.mp4",
     "title": "The Legend of Zelda",
     "url": "//github.com/kirbycope/zelda-godot",
     "play": "//timothycope.com/zelda-godot",
@@ -296,7 +292,6 @@
   {
     "created": "Dec 2023",
     "thumbnail": "cobblemon-bedrock.png",
-    "gif": "cobblemon-bedrock.gif",
     "title": "Cobblemon (Bedrock)",
     "url": "//github.com/kirbycope/cobblemon-bedrock",
     "text": "An open-source Pokémon mod ported to Minecraft Bedrock Edition.",
@@ -315,7 +310,6 @@
   {
     "created": "Nov 2023",
     "thumbnail": "one-block-bedrock.png",
-    "gif": "one-block-bedrock.gif",
     "title": "One Block (Bedrock)",
     "url": "//github.com/kirbycope/one-block-bedrock",
     "text": "Mine a single floating block to build your world and defeat the Ender Dragon.",
