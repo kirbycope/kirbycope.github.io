@@ -48,6 +48,7 @@ function populateProjects(projects) {
                 thumbnail.style.display = "none";
                 var preview = this.querySelector('.card-img-bottom');
                 preview.style.display = "block";
+                preview.play();
             });
             // Add listener to show thumbnail on mouse leave
             imageWrapper.addEventListener("mouseleave", function() {
@@ -55,14 +56,15 @@ function populateProjects(projects) {
                 thumbnail.style.display = "block";
                 var preview = this.querySelector('.card-img-bottom');
                 preview.style.display = "none";
+                preview.pause();
             });
-            // <video autoplay loop muted>
+            // <video autoplay="false" loop="true" muted="true">
             var cardImageBottom = document.createElement("video");
             cardImageBottom.classList.add("card-img-bottom");
             cardImageBottom.style.display = "none";
-            cardImageBottom.setAttribute("autoplay", "true");
-            cardImageBottom.setAttribute("loop", "true");
-            cardImageBottom.setAttribute("muted", "true");
+            cardImageBottom.setAttribute("loop", "");
+            cardImageBottom.setAttribute("muted", "");
+            cardImageBottom.muted = true;
             // <source src="..." type="video/mp4">
             var source = document.createElement("source");
             source.setAttribute("src", "/img/project-previews/" + projects[i].preview);
