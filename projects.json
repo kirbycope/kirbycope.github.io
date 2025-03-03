@@ -471,6 +471,7 @@
   {
     "created": "Apr 2023",
     "thumbnail": "Minecraft-Earth-Mobs-Bedrock.png",
+    "preview": "Minecraft-Earth-Mobs-Bedrock.mp4",
     "title": "Minecraft Earth Mobs",
     "url": "//github.com/kirbycope/Minecraft-Earth-Mobs-Bedrock",
     "text": "All the mobs from Minecraft Earth in Minecraft Bedrock Edition.",
@@ -480,6 +481,7 @@
   {
     "created": "Mar 2023",
     "thumbnail": "MineKart.png",
+    "preview": "MineKart.mp4",
     "title": "MineKart",
     "url": "//github.com/kirbycope/MineKart",
     "text": "Minecraft meets Mario Kart in this multiplayer mash-up.",
@@ -645,6 +647,7 @@
   {
     "created": "Mar 2022",
     "thumbnail": "mob-spawner-bedrock.png",
+    "preview": "mob-spawner-bedrock.mp4",
     "title": "Mob Spawner Bedrock",
     "url": "//github.com/kirbycope/mob-spawner-bedrock",
     "text": "Create mob spawning towers by placing a custom block.",
@@ -664,7 +667,7 @@
   {
     "created": "Feb 2022",
     "thumbnail": "skyblock-bedrock.png",
-    "preview": "skyblock-bedrock.mp4",
+    "preview": "SkyBlock-Bedrock.mp4",
     "title": "SkyBlock (Bedrock)",
     "url": "//github.com/kirbycope/SkyBlock-Bedrock",
     "text": "Skyblock is one of the most popular survival gamemodes.",
