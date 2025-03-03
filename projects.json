@@ -306,6 +306,7 @@
   {
     "created": "Dec 2023",
     "thumbnail": "bonus-chest-java.png",
+    "preview": "bonus-chest-java.mp4",
     "title": "Bonus Chest (Java)",
     "url": "//github.com/kirbycope/bonus-chest-java",
     "text": "A challenge map where you spawn in a void world with only the bonus chest.",
@@ -365,6 +366,7 @@
   {
     "created": "Oct 2023",
     "thumbnail": "skyblock-four-sticks-bedrock.png",
+    "preview": "skyblock-four-sticks-bedrock.mp4",
     "title": "SkyBlock: Four Sticks (Bedrock)",
     "url": "//github.com/kirbycope/skyblock-four-sticks-bedrock",
     "text": "A multiplayer SkyBlock where each player gets an island.",
@@ -374,6 +376,7 @@
   {
     "created": "Oct 2023",
     "thumbnail": "crossy-road-bedrock.png",
+    "preview": "crossy-road-bedrock.mp4",
     "title": "Crossy Road (Bedrock)",
     "url": "//github.com/kirbycope/crossy-road-bedrock",
     "text": "Mysticat's Crossy Road for Minecraft Bedrock Edition.",
@@ -458,6 +461,7 @@
   {
     "created": "Apr 2023",
     "thumbnail": "Minecraft-Legends-Mobs-Bedrock.png",
+    "preview": "Minecraft-Legends-Mobs-Bedrock.mp4",
     "title": "Minecraft Legends Mobs",
     "url": "//github.com/kirbycope/Minecraft-Legends-Mobs-Bedrock",
     "text": "All the mobs from Minecraft Legends in Minecraft Bedrock Edition.",
@@ -539,6 +543,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "item-rush-bedrock.png",
+    "preview": "item-rush-bedrock.mp4",
     "title": "Item Rush (Bedrock)",
     "url": "//github.com/kirbycope/item-rush-bedrock",
     "text": "Item Rush game mode for Minecraft Bedrock Edition.",
@@ -566,6 +571,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "mysticar-bedrock.png",
+    "preview": "mysticar-bedrock.mp4",
     "title": "Mysticar (Bedrock)",
     "url": "//github.com/kirbycope/mysticar-bedrock",
     "text": "The Mysticat car for Minecraft Bedrock Edition.",
