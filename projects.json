@@ -654,6 +654,7 @@
   {
     "created": "Jan 2022",
     "thumbnail": "bedrock-earth.png",
+    "preview": "Bedrock-Earth.mp4",
     "title": "Bedrock Earth",
     "url": "//github.com/kirbycope/Bedrock-Earth",
     "text": "A couple mobs and a custom map inspired by Minecraft Earth.",
@@ -663,6 +664,7 @@
   {
     "created": "Feb 2022",
     "thumbnail": "skyblock-bedrock.png",
+    "preview": "skyblock-bedrock.mp4",
     "title": "SkyBlock (Bedrock)",
     "url": "//github.com/kirbycope/SkyBlock-Bedrock",
     "text": "Skyblock is one of the most popular survival gamemodes.",
