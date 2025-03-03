@@ -205,6 +205,7 @@
   {
     "created": "Jul 2024",
     "thumbnail": "display-bedrock.png",
+    "preview": "display-bedrock.mp4",
     "title": "Block and Item Display (Bedrock)",
     "url": "//github.com/kirbycope/display-bedrock",
     "text": "Block and item display entities for Minecraft Bedrock Edition.",
@@ -214,6 +215,7 @@
   {
     "created": "Jul 2024",
     "thumbnail": "soccer-bedrock.png",
+    "preview": "soccer-bedrock.mp4",
     "title": "Soccer Ball (Bedrock)",
     "url": "//github.com/kirbycope/soccer-bedrock",
     "text": "An interactive soccer ball for Minecraft Bedrock Edition.",
@@ -223,6 +225,7 @@
   {
     "created": "Jun 2024",
     "thumbnail": "portal-bedrock.png",
+    "preview": "portal-bedrock.mp4",
     "title": "Portal (Bedrock)",
     "url": "//github.com/kirbycope/portal-bedrock",
     "text": "Portal (PC, 2007) made using Minecraft Bedrock Edition.",
@@ -232,6 +235,7 @@
   {
     "created": "Mar 2024",
     "thumbnail": "EditorPluginWebView.png",
+    "preview": "EditorPluginWebView.mp4",
     "title": "Editor Plugin Web View",
     "url": "//github.com/kirbycope/EditorPluginWebView",
     "text": "A WebView using the Godot EditorPlugin class.",
@@ -292,6 +296,7 @@
   {
     "created": "Dec 2023",
     "thumbnail": "cobblemon-bedrock.png",
+    "preview": "cobblemon-bedrock.mp4",
     "title": "Cobblemon (Bedrock)",
     "url": "//github.com/kirbycope/cobblemon-bedrock",
     "text": "An open-source Pokémon mod ported to Minecraft Bedrock Edition.",
@@ -310,6 +315,7 @@
   {
     "created": "Nov 2023",
     "thumbnail": "one-block-bedrock.png",
+    "preview": "one-block-bedrock.mp4",
     "title": "One Block (Bedrock)",
     "url": "//github.com/kirbycope/one-block-bedrock",
     "text": "Mine a single floating block to build your world and defeat the Ender Dragon.",
@@ -317,8 +323,19 @@
     "category": "game"
   },
   {
+    "created": "Nov 2023",
+    "thumbnail": "animal-crafting-bedrock.png",
+    "preview": "animal-crafting-bedrock.mp4",
+    "title": "Animal Crafting (Bedrock)",
+    "url": "//github.com/kirbycope/animal-crafting-bedrock",
+    "text": "Animal Forest (N64, 2001) meets Minecraft Bedrock Edition (PC, 2011).",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
     "created": "Oct 2023",
     "thumbnail": "secret-life-bedrock.png",
+    "preview": "secret-life-bedrock.mp4",
     "title": "Secret Life (Bedrock)",
     "url": "//github.com/kirbycope/secret-life-bedrock",
     "text": "Secret Life series map with addon for Minecraft Bedrock Edition.",
@@ -328,6 +345,7 @@
   {
     "created": "Oct 2023",
     "thumbnail": "secret-life-java.png",
+    "preview": "secret-life-java.mp4",
     "title": "Secret Life (Java)",
     "url": "//github.com/kirbycope/secret-life-java",
     "text": "Secret Life series map with data pack for Minecraft Java Edition.",
@@ -337,6 +355,7 @@
   {
     "created": "Oct 2023",
     "thumbnail": "secret-life-datapack.png",
+    "preview": "secret-life-datapack.mp4",
     "title": "Secret Life (Data Pack)",
     "url": "//github.com/kirbycope/secret-life-datapack",
     "text": "Secret Life series data pack for Minecraft Java Edition.",
@@ -373,6 +392,7 @@
   {
     "created": "Sep 2023",
     "thumbnail": "smb-java.png",
+    "preview": "smb-java.mp4",
     "title": "Super Mario Bros (Java)",
     "url": "//github.com/kirbycope/smb-java",
     "text": "Super Mario Brothers for Minecraft Java Edition.",
@@ -382,6 +402,7 @@
   {
     "created": "Sep 2023",
     "thumbnail": "smb-bedrock.png",
+    "preview": "smb-bedrock.mp4",
     "title": "Super Mario Bros (Bedrock)",
     "url": "//github.com/kirbycope/smb-bedrock",
     "text": "Super Mario Brothers for Minecraft Bedrock Edition.",
@@ -608,6 +629,7 @@
   {
     "created": "May 2022",
     "thumbnail": "wom-java.png",
+    "preview": "wom-java.mp4",
     "title": "World of Minecraft",
     "url": "//github.com/kirbycope/world-of-minecraft",
     "text": "World of Warcraft but in Minecraft Java Edition.",
@@ -644,6 +666,7 @@
   {
     "created": "Jan 2022",
     "thumbnail": "skyblock.png",
+    "preview": "skyblock.mp4",
     "title": "SkyBlock (Java)",
     "url": "//github.com/kirbycope/SkyBlock",
     "text": "Skyblock is one of the most popular survival gamemodes.",
@@ -653,6 +676,7 @@
   {
     "created": "Dec 2021",
     "thumbnail": "copecraft.png",
+    "preview": "copecraft.mp4",
     "title": "CopeCraft",
     "url": "//github.com/kirbycope/CopeCraft",
     "text": "A skyblock farming sim using a custom map and scripts.",

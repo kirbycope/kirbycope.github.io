@@ -162,6 +162,14 @@ function populateProjects(projects) {
         cardText.innerText = projects[i].text;
         cardBody.appendChild(cardText);
 
+        //<p class="text-body-secondary">
+        if (projects[i].why !== undefined) {
+            var cardTextSecondary = document.createElement("p");
+            cardTextSecondary.classList.add("text-body-secondary");
+            cardTextSecondary.innerText = "❔ " + projects[i].why;
+            cardBody.appendChild(cardTextSecondary);
+        }
+
         // <div class="d-flex justify-content-between align-items-center">
         var buttonContainer = document.createElement("div");
         buttonContainer.classList.add("d-flex");

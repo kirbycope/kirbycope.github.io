@@ -54,3 +54,7 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.text-body-secondary {
+  color: #6c757d;
+}
