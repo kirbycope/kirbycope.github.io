@@ -278,6 +278,7 @@
   {
     "created": "Jan 2024",
     "thumbnail": "cypress-javascript.png",
+    "preview": "cypress-javascript.mp4",
     "title": "Cypress JavaScript",
     "url": "//github.com/kirbycope/cypress-javascript",
     "text": "An example test automation suite using Cypress and JavaScript.",
@@ -287,6 +288,7 @@
   {
     "created": "Jan 2024",
     "thumbnail": "playwright-typescript.png",
+    "preview": "playwright-typescript.mp4",
     "title": "Playwright TypeScript",
     "url": "//github.com/kirbycope/playwright-typescript",
     "text": "An example test automation suite using Playwright and TypeScript.",
@@ -386,6 +388,7 @@
   {
     "created": "Oct 2023",
     "thumbnail": "crossy-road-java.png",
+    "preview": "crossy-road-java.mp4",
     "title": "Crossy Road (Java)",
     "url": "//github.com/kirbycope/crossy-road-java",
     "text": "Mysticat's Crossy Road for Minecraft Java Edition.",
@@ -415,6 +418,7 @@
   {
     "created": "July 2023",
     "thumbnail": "unity-alley-cat.png",
+    "preview": "AlleyCat.mp4",
     "title": "Alley Cat",
     "url": "//github.com/kirbycope/AlleyCat",
     "play": "//timothycope.com/AlleyCat",
@@ -443,6 +447,7 @@
   {
     "created": "June 2023",
     "thumbnail": "EditorWindowWebView.png",
+    "preview": "EditorWindowWebView.mp4",
     "title": "Editor Window Web View (Unity)",
     "url": "//github.com/kirbycope/EditorWindowWebView",
     "text": "A WebView using the Unity EditorWindow class.",
