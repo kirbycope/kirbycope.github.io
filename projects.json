@@ -509,6 +509,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "mine-pikmin.png",
+    "preview": "mine-pikmin.mp4",
     "title": "Mine Pikmin",
     "url": "//github.com/kirbycope/mine-pikmin",
     "text": "A Pikmin mob for Minecraft Bedrock Edition.",
@@ -619,6 +620,7 @@
   {
     "created": "Aug 2022",
     "thumbnail": "little-buddy.png",
+    "preview": "little-buddy.mp4",
     "title": "Little Buddy",
     "url": "//github.com/kirbycope/little-buddy",
     "text": "A little buddy to adventure with you in Minecraft Bedrock Edition.",
@@ -628,6 +630,7 @@
   {
     "created": "Jul 2022",
     "thumbnail": "hearthstone-bedrock.png",
+    "preview": "hearthstone-bedrock.mp4",
     "title": "Hearthstone Bedrock",
     "url": "//github.com/kirbycope/hearthstone-bedrock",
     "text": "A Warcraft hearthstone for Minecraft Bedrock Edition.",
