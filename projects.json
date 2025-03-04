@@ -496,6 +496,7 @@
   {
     "created": "Mar 2023",
     "thumbnail": "tarot-able-unity.png",
+    "preview": "tarot-able-unity.mp4",
     "title": "Tarot-able (Unity)",
     "url": "//github.com/kirbycope/tarot-able-unity",
     "text": "A tarot card reading app for Unity (2D) with simple animations.",
@@ -505,6 +506,7 @@
   {
     "created": "Mar 2023",
     "thumbnail": "tarot-able.png",
+    "preview": "tarot-able.mp4",
     "title": "Tarot-able (Web)",
     "url": "//github.com/kirbycope/tarot-able",
     "text": "A tarot card reading app and dictionary with simple animations.",
@@ -598,6 +600,7 @@
   {
     "created": "Jan 2023",
     "thumbnail": "skyblock-four-sticks.png",
+    "preview": "skyblock-four-sticks.mp4",
     "title": "SkyBlock: Four Sticks",
     "url": "//github.com/kirbycope/skyblock-four-sticks",
     "text": "A multiplayer SkyBlock where each player gets an island.",
