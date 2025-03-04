@@ -535,6 +535,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "map-markers-java.png",
+    "preview": "map-markers-java.mp4",
     "title": "Map Markers (Java)",
     "url": "//github.com/kirbycope/map-markers-java",
     "text": "Use a Python script to create map art in Minecraft Java.",
@@ -563,6 +564,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "item-rush-java.png",
+    "preview": "item-rush-java.mp4",
     "title": "Item Rush (Java)",
     "url": "//github.com/kirbycope/item-rush-java",
     "text": "Item Rush game mode for Minecraft Java Edition.",
@@ -572,6 +574,7 @@
   {
     "created": "Feb 2023",
     "thumbnail": "build-below-bedrock.png",
+    "preview": "build-below-bedrock.mp4",
     "title": "Build Below Bedrock",
     "url": "//github.com/kirbycope/build-below-bedrock",
     "text": "Build in the void below the bedrock layer in Minecraft Java.",
@@ -591,6 +594,7 @@
   {
     "created": "Jan 2023",
     "thumbnail": "mysticar-java.png",
+    "preview": "mysticar-java.mp4",
     "title": "Mysticar (Java)",
     "url": "//github.com/kirbycope/mysticar-java",
     "text": "The Mysticat car for Minecraft Java Edition.",
@@ -610,6 +614,7 @@
   {
     "created": "Nov 2022",
     "thumbnail": "expanding-world.png",
+    "preview": "expanding-world.mp4",
     "title": "Expanding World",
     "url": "//github.com/kirbycope/expanding-world",
     "text": "The world border starts at 16x16 area and expands each in-game day.",
@@ -619,6 +624,7 @@
   {
     "created": "Oct 2022",
     "thumbnail": "minecRAFT.png",
+    "preview": "minecRAFT.mp4",
     "title": "MinecRAFT",
     "url": "//github.com/kirbycope/minecRAFT",
     "text": "Raft throws you and your friends into an epic oceanic adventure!",
