@@ -6,7 +6,7 @@ function populateProjects(projects) {
         if (projects[i].url.indexOf("github") !== -1) {
             projects[i].url = projects[i].url + "#readme"
         }
-        
+
         // <div class="col-md-4">
         var cardContainer = document.createElement("div");
         cardContainer.classList.add("col-md-4");
@@ -43,7 +43,7 @@ function populateProjects(projects) {
 
         if (projects[i].preview !== undefined) {
             // Add listener to show preview on hover
-            imageWrapper.addEventListener("mouseenter", function() {
+            imageWrapper.addEventListener("mouseenter", function () {
                 var thumbnail = this.querySelector('.card-img-top');
                 thumbnail.style.display = "none";
                 var preview = this.querySelector('.card-img-bottom');
@@ -51,7 +51,7 @@ function populateProjects(projects) {
                 preview.play();
             });
             // Add listener to show thumbnail on mouse leave
-            imageWrapper.addEventListener("mouseleave", function() {
+            imageWrapper.addEventListener("mouseleave", function () {
                 var thumbnail = this.querySelector('.card-img-top');
                 thumbnail.style.display = "block";
                 var preview = this.querySelector('.card-img-bottom');
@@ -204,7 +204,7 @@ function populateProjects(projects) {
         playLink.href = projects[i].play;
         if (playLink.href.endsWith("undefined") == false)
             buttonGroup.appendChild(playLink);
-        
+
         // <small class="text-muted"></small>
         var smallText = document.createElement("small");
         smallText.classList.add("text-muted");
@@ -265,7 +265,7 @@ for (var i = 0; i < btns.length; i++) {
 window.onload = function () {
 
     // Populate the page
-    $.getJSON("projects.json", function(data){
+    $.getJSON("projects.json", function (data) {
         populateProjects(data);
         // https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
         filterSelection("all");
@@ -275,3 +275,137 @@ window.onload = function () {
     $('span#copyright-year').text(new Date().getFullYear());
 
 };
+
+/** Set up Intersection Observer for detecting when thumbnails are in the middle third of viewport (mobile only) */
+function setupMobileVideoPreviewObserver() {
+    // Check if device is mobile (using screen width as a common approach)
+    const isMobile = window.innerWidth <= 768; // Standard Bootstrap mobile breakpoint
+    
+    // Don't run the observer if not on mobile
+    if (!isMobile) {
+      return null;
+    }
+    
+    // Get viewport height
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+    
+    // Calculate middle third boundaries
+    const oneThird = viewportHeight / 3;
+    const middleThirdStart = oneThird;
+    const middleThirdEnd = oneThird * 2;
+    
+    // Create the IntersectionObserver
+    const options = {
+      root: null, // Use the viewport
+      rootMargin: `-${middleThirdStart}px 0px -${viewportHeight - middleThirdEnd}px 0px`,
+      threshold: 0.1 // Trigger when at least 10% of the target is visible
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        // Get the image wrapper div that contains both thumbnail and video
+        const imageWrapper = entry.target;
+        const thumbnail = imageWrapper.querySelector('.card-img-top');
+        const videoPreview = imageWrapper.querySelector('.card-img-bottom');
+        
+        // Only proceed if we have both elements
+        if (!thumbnail || !videoPreview) return;
+        
+        if (entry.isIntersecting) {
+          // Show video when in middle third
+          thumbnail.style.display = "none";
+          videoPreview.style.display = "block";
+          videoPreview.play();
+        } else {
+          // Show thumbnail when outside middle third
+          thumbnail.style.display = "block";
+          videoPreview.style.display = "none";
+          videoPreview.pause();
+        }
+      });
+    }, options);
+    
+    // Find all image wrappers that have video previews
+    const imageWrappers = document.querySelectorAll('div.card div[style="position: relative;"]');
+    imageWrappers.forEach(wrapper => {
+      // Only observe elements that have a video preview
+      if (wrapper.querySelector('.card-img-bottom')) {
+        observer.observe(wrapper);
+      }
+    });
+    
+    return observer;
+  }
+  
+  // Function to handle observer initialization and updates
+  function initializeObserver() {
+    // Check if device is mobile
+    const isMobile = window.innerWidth < 768;
+    
+    // Get existing observer if any
+    let observer = window.videoPreviewObserver;
+    
+    // If we have an existing observer but we're not on mobile
+    if (observer && !isMobile) {
+      observer.disconnect();
+      window.videoPreviewObserver = null;
+      
+      // Reset all videos to their default state (hidden)
+      const videos = document.querySelectorAll('.card-img-bottom');
+      videos.forEach(video => {
+        video.style.display = "none";
+        video.pause();
+        
+        // Show the corresponding thumbnail
+        const wrapper = video.parentElement.parentElement;
+        const thumbnail = wrapper.querySelector('.card-img-top');
+        if (thumbnail) {
+          thumbnail.style.display = "block";
+        }
+      });
+      
+      return;
+    }
+    
+    // If we don't have an observer but we are on mobile
+    if (!observer && isMobile) {
+      observer = setupMobileVideoPreviewObserver();
+      window.videoPreviewObserver = observer;
+      return;
+    }
+    
+    // If we have an observer and we're still on mobile, update it
+    if (observer && isMobile) {
+      observer.disconnect();
+      window.videoPreviewObserver = setupMobileVideoPreviewObserver();
+    }
+  }
+  
+  // Modify the original window.onload function to include our observer initialization
+  const originalOnload = window.onload;
+  window.onload = function() {
+    // Call the original onload function first
+    if (originalOnload) {
+      originalOnload();
+    }
+    
+    // Initialize our observer after projects are loaded
+    // Using setTimeout to ensure DOM is fully populated with projects
+    setTimeout(() => {
+      initializeObserver();
+      
+      // Remove the mouseenter/mouseleave event listeners on mobile
+      if (window.innerWidth <= 768) {
+        const imageWrappers = document.querySelectorAll('div.card div[style="position: relative;"]');
+        imageWrappers.forEach(wrapper => {
+          const newWrapper = wrapper.cloneNode(true);
+          wrapper.parentNode.replaceChild(newWrapper, wrapper);
+        });
+      }
+    }, 500);
+    
+    // Update observer on window resize
+    window.addEventListener('resize', () => {
+      initializeObserver();
+    });
+  };
