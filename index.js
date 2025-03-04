@@ -276,15 +276,32 @@ window.onload = function () {
 
 };
 
+// ----------------------------------------
+/** 
+ * Mobile viewport detection script for video preview
+ * Enables video previews when thumbnails are in middle third of screen
+ */
+
+// Global observer reference to prevent duplicate initialization
+let videoPreviewObserver = null;
+let observerInitialized = false;
+let hasUserInteracted = false;
+
 /** Set up Intersection Observer for detecting when thumbnails are in the middle third of viewport (mobile only) */
 function setupMobileVideoPreviewObserver() {
   // More reliable mobile detection using both width and user agent
-  const isMobile = window.innerWidth < 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
   // Don't run the observer if not on mobile
   if (!isMobile) {
     console.log("Not a mobile device, observer not initialized");
     return null;
+  }
+
+  // Don't reinitialize if already created
+  if (observerInitialized) {
+    console.log("Observer already initialized, skipping");
+    return videoPreviewObserver;
   }
 
   console.log("Mobile device detected, initializing observer");
@@ -316,168 +333,208 @@ function setupMobileVideoPreviewObserver() {
 
       if (entry.isIntersecting) {
         // Show video when in middle third
-        console.log("Thumbnail in middle third, showing video preview");
         thumbnail.style.display = "none";
         videoPreview.style.display = "block";
 
-        // Force video to play with both play() and autoplay attribute
-        videoPreview.setAttribute("autoplay", "");
-        const playPromise = videoPreview.play();
+        // Only try to play if the user has interacted with the page
+        if (hasUserInteracted) {
+          // Set src attribute only when in view to avoid excessive video loads
+          if (!videoPreview.src && videoPreview.querySelector('source')) {
+            videoPreview.src = videoPreview.querySelector('source').src;
+          }
 
-        // Handle play() promise to avoid uncaught errors
-        if (playPromise !== undefined) {
-          playPromise.catch(error => {
-            console.log("Auto-play was prevented:", error);
-            // On mobile, often need user interaction first
-            // Just show the video without playing it
-          });
+          // Force autoplay with muted attribute
+          videoPreview.muted = true;
+          videoPreview.setAttribute("muted", "");
+          videoPreview.setAttribute("playsinline", "");
+
+          const playPromise = videoPreview.play();
+          if (playPromise !== undefined) {
+            playPromise.catch(error => {
+              console.log("Auto-play was prevented:", error);
+            });
+          }
         }
       } else {
         // Show thumbnail when outside middle third
-        console.log("Thumbnail out of middle third, showing static image");
         thumbnail.style.display = "block";
         videoPreview.style.display = "none";
-        videoPreview.pause();
+
+        // Pause to conserve resources
+        try {
+          videoPreview.pause();
+        } catch (e) {
+          // Ignore errors on pause
+        }
       }
     });
   }, options);
 
-  // Wait for DOM to be fully ready before observing elements
-  setTimeout(() => {
-    // Find all image wrappers that have video previews
-    const imageWrappers = document.querySelectorAll('div.card div[style="position: relative;"]');
-    console.log(`Found ${imageWrappers.length} possible project cards to observe`);
+  // Find all image wrappers that have video previews
+  const imageWrappers = document.querySelectorAll('div.card div[style="position: relative;"]');
+  let observedCount = 0;
 
-    let observedCount = 0;
-    imageWrappers.forEach(wrapper => {
-      // Only observe elements that have a video preview
-      if (wrapper.querySelector('.card-img-bottom')) {
-        observer.observe(wrapper);
-        observedCount++;
-      }
-    });
-    console.log(`Actually observing ${observedCount} cards with video previews`);
-  }, 1000); // Longer timeout to ensure projects are fully loaded
+  imageWrappers.forEach(wrapper => {
+    // Only observe elements that have a video preview
+    if (wrapper.querySelector('.card-img-bottom')) {
+      observer.observe(wrapper);
+      observedCount++;
+    }
+  });
+
+  console.log(`Observing ${observedCount} cards with video previews`);
+
+  // Mark as initialized
+  observerInitialized = true;
+  videoPreviewObserver = observer;
 
   return observer;
 }
 
-// Function to handle observer initialization and updates
-function initializeObserver() {
-  // More reliable mobile detection
-  const isMobile = window.innerWidth < 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
-  console.log(`Device detection: ${isMobile ? 'Mobile' : 'Desktop'}, Width: ${window.innerWidth}`);
-
-  // Get existing observer if any
-  let observer = window.videoPreviewObserver;
-
-  // If we have an existing observer but we're not on mobile
-  if (observer && !isMobile) {
-    console.log("No longer on mobile, disconnecting observer");
-    observer.disconnect();
-    window.videoPreviewObserver = null;
-
-    // Reset all videos to their default state (hidden)
-    const videos = document.querySelectorAll('.card-img-bottom');
-    console.log(`Resetting ${videos.length} videos to default state`);
-    videos.forEach(video => {
-      video.style.display = "none";
-      video.pause();
-
-      // Show the corresponding thumbnail
-      const wrapper = video.parentElement.parentElement;
-      const thumbnail = wrapper.querySelector('.card-img-top');
-      if (thumbnail) {
-        thumbnail.style.display = "block";
-      }
-    });
-
-    return;
-  }
-
-  // If we don't have an observer but we are on mobile
-  if (!observer && isMobile) {
-    console.log("On mobile, initializing observer");
-    observer = setupMobileVideoPreviewObserver();
-    window.videoPreviewObserver = observer;
-    return;
-  }
-
-  // If we have an observer and we're still on mobile, update it
-  if (observer && isMobile) {
-    console.log("Still on mobile, updating observer");
-    observer.disconnect();
-    window.videoPreviewObserver = setupMobileVideoPreviewObserver();
-  }
-}
-
-// Function to remove desktop hover behaviors on mobile
+// Remove desktop hover behaviors on mobile
 function disableMobileHoverEvents() {
-  if (window.innerWidth < 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  if ((window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+    && !window.mobileHoverDisabled) {
+
     console.log("Removing hover events on mobile");
     const imageWrappers = document.querySelectorAll('div.card div[style="position: relative;"]');
+
     imageWrappers.forEach(wrapper => {
       // Create a clone without event listeners
       const newWrapper = wrapper.cloneNode(true);
       wrapper.parentNode.replaceChild(newWrapper, wrapper);
     });
+
+    // Mark as done so we don't repeat this operation
+    window.mobileHoverDisabled = true;
   }
 }
 
-// When DOM content is loaded, set up a MutationObserver to monitor
-// when project cards are added to the page
+// Main initialization function
+function initVideoPreview() {
+  // Only do this once
+  if (window.videoPreviewInitialized) return;
+
+  console.log("Initializing video preview system");
+
+  // Disable the desktop hover behavior
+  disableMobileHoverEvents();
+
+  // Set up the intersection observer
+  setupMobileVideoPreviewObserver();
+
+  // Listen for resize events with debounce to adjust the observer
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      // Check if mobile state changed
+      const wasMobile = observerInitialized;
+      const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+      if (wasMobile && !isMobile) {
+        // Disconnecting observer when switching to desktop
+        console.log("Switching to desktop, disconnecting observer");
+        if (videoPreviewObserver) {
+          videoPreviewObserver.disconnect();
+          videoPreviewObserver = null;
+          observerInitialized = false;
+        }
+
+        // Reset all videos to thumbnail state
+        const videos = document.querySelectorAll('.card-img-bottom');
+        videos.forEach(video => {
+          video.style.display = "none";
+          video.pause();
+
+          // Show the corresponding thumbnail
+          const thumbnail = video.parentElement.querySelector('.card-img-top');
+          if (thumbnail) {
+            thumbnail.style.display = "block";
+          }
+        });
+      }
+      else if (!wasMobile && isMobile) {
+        // Switching to mobile
+        console.log("Switching to mobile, initializing observer");
+        disableMobileHoverEvents();
+        setupMobileVideoPreviewObserver();
+      }
+    }, 250);
+  });
+
+  // Mark as initialized
+  window.videoPreviewInitialized = true;
+}
+
+// Wait for user interaction before enabling video playback
+function enableVideoPlayback() {
+  if (!hasUserInteracted) {
+    console.log("User interaction detected, enabling video playback");
+    hasUserInteracted = true;
+
+    // Find all currently visible videos and try to play them
+    const visibleVideos = document.querySelectorAll('.card-img-bottom[style="display: block;"]');
+    visibleVideos.forEach(video => {
+      // Set necessary attributes for mobile playback
+      video.muted = true;
+      video.setAttribute("muted", "");
+      video.setAttribute("playsinline", "");
+
+      // Try to load and play the video
+      if (video.querySelector('source') && !video.src) {
+        video.src = video.querySelector('source').src;
+      }
+
+      video.play().catch(e => {
+        // Just log errors, don't stop execution
+        console.log("Could not autoplay:", e);
+      });
+    });
+  }
+}
+
+// Add various user interaction listeners to enable video playback
+document.addEventListener('touchstart', enableVideoPlayback, { once: false, passive: true });
+document.addEventListener('click', enableVideoPlayback, { once: false, passive: true });
+document.addEventListener('scroll', enableVideoPlayback, { once: false, passive: true });
+
+// Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', function () {
-  console.log("DOM Content Loaded, setting up MutationObserver for projects");
+  console.log("DOM Content Loaded, waiting for projects to load");
 
   // Watch for when projects are added to the DOM
   const projectsContainer = document.getElementById('projects');
   if (projectsContainer) {
     const observer = new MutationObserver(function (mutations) {
-      mutations.forEach(function (mutation) {
+      for (let mutation of mutations) {
         if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
-          console.log("Projects added to DOM, initializing viewport detection");
-          // Wait a moment for everything to render
+          console.log("Projects detected in DOM");
+
+          // Give a small delay for everything to render
           setTimeout(() => {
-            disableMobileHoverEvents();
-            initializeObserver();
+            // Only initialize once
+            if (!window.videoPreviewInitialized) {
+              initVideoPreview();
+            }
           }, 500);
-          // Once projects are loaded, disconnect this observer
+
+          // No need to keep watching after we've detected projects
           observer.disconnect();
+          return;
         }
-      });
+      }
     });
 
-    // Start observing
-    observer.observe(projectsContainer, { childList: true });
+    // Start observing the projects container
+    observer.observe(projectsContainer, { childList: true, subtree: true });
   }
 
-  // Update observer on window resize with debounce
-  let resizeTimer;
-  window.addEventListener('resize', () => {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => {
-      console.log("Window resized, updating observer");
-      disableMobileHoverEvents();
-      initializeObserver();
-    }, 250);
-  });
-
-  // Also initialize on page load to catch all scenarios
+  // Fallback initialization in case the mutation observer doesn't trigger
   setTimeout(() => {
-    disableMobileHoverEvents();
-    initializeObserver();
-  }, 1500);
+    if (!window.videoPreviewInitialized) {
+      console.log("Fallback initialization");
+      initVideoPreview();
+    }
+  }, 2000);
 });
-
-// Mobile devices often require a user interaction before videos can play
-// Add a global touch listener to enable video playback
-document.addEventListener('touchstart', function () {
-  // Try to play any visible videos
-  const visibleVideos = document.querySelectorAll('.card-img-bottom[style="display: block;"]');
-  visibleVideos.forEach(video => {
-    video.play().catch(e => {
-      // Ignore errors - this just enables playback for future videos
-    });
-  });
-}, { once: true });
