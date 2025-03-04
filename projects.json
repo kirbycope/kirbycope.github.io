@@ -7,6 +7,7 @@
     "url": "//github.com/kirbycope/godot-tensura",
     "play": "//timothycope.com/godot-tensura",
     "text": "That Time I Got Reincarnated as a Slime (2018) in the Godot game engine.",
+    "goal": "Controlling a character that has a <a href='https://docs.godotengine.org/en/stable/classes/class_softbody3d.html'>SoftBody3D</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -18,6 +19,7 @@
     "url": "//github.com/kirbycope/godot-shrek-thriller",
     "play": "//timothycope.com/godot-shrek-thriller",
     "text": "Shrek performs the Thriller (1982) dance in the Godot game engine.",
+    "goal": "Creating a cutscene using <a href='https://docs.godotengine.org/en/stable/classes/class_animationplayer.html'>AnimationPlayer</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -28,6 +30,7 @@
     "title": "Shrek Opening Scene",
     "url": "//github.com/kirbycope/godot-shrek",
     "text": "The opening scene of Shrek (2001) in the Godot game engine.",
+    "goal": "Checking out <a href='https://github.com/TokisanGames/Terrain3D'>Terrain3D</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -39,6 +42,7 @@
     "url": "//github.com/kirbycope/godot-super-mario-64",
     "play": "//timothycope.com/godot-super-mario-64",
     "text": "The opening scene of Super Mario 64 (N64, 1996) made using the Godot game engine.",
+    "goal": "Manipulating a <a href='https://docs.godotengine.org/en/stable/classes/class_meshinstance3d.html'>MeshInstance3D</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -49,6 +53,7 @@
     "title": "GodotSteam MultiplayerPeer 3D",
     "url": "//github.com/kirbycope/godotsteam-multiplayerpeer-example-3d",
     "text": "A 3D example for GodotSteam MultiplayerPeer.",
+    "goal": "Try <a href='https://godotsteam.com/getting_started/what_are_you_making/#multiplayer-using-godots-multiplayerpeer-nodes'>MultiplayerPeer</a> in a 3D game.",
     "small": "Godot",
     "category": "game"
   },
@@ -59,6 +64,7 @@
     "title": "GodotSteam MultiplayerPeer 2D",
     "url": "//github.com/kirbycope/godotsteam-multiplayerpeer-example-2d",
     "text": "A 2D example for GodotSteam MultiplayerPeer.",
+    "goal": "Try <a href='https://godotsteam.com/getting_started/what_are_you_making/#multiplayer-using-godots-multiplayerpeer-nodes'>MultiplayerPeer</a> in a 2D game.",
     "small": "Godot",
     "category": "game"
   },
@@ -70,6 +76,7 @@
     "url": "//github.com/kirbycope/godot-tuscany-demo",
     "play": "//timothycope.com/godot-tuscany-demo",
     "text": "Tuscany Demo (Oculus, 2013) made using the Godot game engine.",
+    "goal": "Create a multiplayer game lobby using a familar scene.",
     "small": "Godot",
     "category": "game"
   },
@@ -81,6 +88,7 @@
     "url": "//github.com/kirbycope/godot-animal-crossing",
     "play": "//timothycope.com/godot-animal-crossing",
     "text": "The opening scene of Animal Crossing: New Leaf (DS, 2012) made using the Godot game engine.",
+    "goal": "Gettings NPCs to 'talk' using <a href='https://github.com/mattmarch/ACVoicebox'>ACVoicebox.</a>",
     "small": "Godot",
     "category": "game"
   },
@@ -92,6 +100,7 @@
     "url": "//github.com/kirbycope/godot-portal",
     "play": "//timothycope.com/godot-portal",
     "text": "The first level of Portal (PC, 2007) made using the Godot game engine.",
+    "goal": "Use <a href='https://docs.godotengine.org/en/stable/classes/class_subviewport.html'>SubViewport</a> to create a portal effect.",
     "small": "Godot",
     "category": "game"
   },
@@ -103,6 +112,7 @@
     "url": "//github.com/kirbycope/godot-javascript-opencv",
     "play": "//timothycope.com/godot-javascript-opencv",
     "text": "Use OpenCV and JavaScript to display the webcam video in a Godot Scene.",
+    "goal": "Interact with a JavaScript library using <a href='https://docs.godotengine.org/en/stable/classes/class_javascriptbridge.html'>JavaScriptBridge</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -113,6 +123,7 @@
     "title": "Godot Python OpenCV",
     "url": "//github.com/kirbycope/godot-python-opencv",
     "text": "Use OpenCV and Python to display the webcam video in a Godot Scene.",
+    "goal": "Interact with Python libray packaged using <a href='https://pyinstaller.org/en/stable/'>PyInstaller</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -124,6 +135,7 @@
     "url": "//github.com/kirbycope/godot-alley-cat",
     "play": "//timothycope.com/godot-alley-cat",
     "text": "Alley Cat (PC, 1983) remade for the Godot game engine.",
+    "goal": "Recreate and improve upon the <a href='http://github.com/kirbycope/AlleyCat#readme'>Unity version</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -135,6 +147,7 @@
     "url": "//github.com/kirbycope/godot-super-mario-bros",
     "play": "//timothycope.com/godot-super-mario-bros",
     "text": "The first level of Super Mario Bros. (NES, 1995) made using the Godot game engine.",
+    "goal": "Check out <a href='https://docs.godotengine.org/en/4.3/classes/class_tilemaplayer.html'>TileMapLayer</a> split from <a href='https://docs.godotengine.org/en/4.3/classes/class_tilemap.html'>TileMap</a> in <a href='https://godotengine.org/releases/4.3/'>Godot 4.3</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -146,6 +159,7 @@
     "url": "//github.com/kirbycope/godot-minecraft",
     "play": "//timothycope.com/godot-minecraft",
     "text": "Minecraft (PC, 2011) made using the Godot game engine.",
+    "goal": "Apply multiple texture faces to a <a href='https://docs.godotengine.org/en/stable/classes/class_mesh.html'>Mesh</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -157,6 +171,7 @@
     "url": "//github.com/kirbycope/godot-2d-player-controller",
     "play": "//timothycope.com/godot-2d-player-controller",
     "text": "A 2D Player Controller for the Godot game engine.",
+    "goal": "Create a reusable controller for a <a href='https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html'>CharacterBody2D</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -168,6 +183,7 @@
     "url": "//github.com/kirbycope/godot-3d-player-controller",
     "play": "//timothycope.com/godot-3d-player-controller",
     "text": "A 3D Player Controller for the Godot game engine.",
+    "goal": "Create a reusable controller for a <a href='https://docs.godotengine.org/en/stable/classes/class_characterbody3d.html'>CharacterBody3D</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -179,6 +195,7 @@
     "url": "//github.com/kirbycope/godot-game-client",
     "play": "//timothycope.com/godot-game-client",
     "text": "Download and play games made using the Godot game engine.",
+    "goal": "Create a client to load and play games from a remote host.",
     "small": "Godot",
     "category": "game"
   },
@@ -189,6 +206,7 @@
     "title": "Godot 4.3 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.3-sandbox-3d",
     "text": "A 3D sandbox for v4.3 of the Godot game engine.",
+    "goal": "To familiarize myself with the new features in <a href='https://godotengine.github.io/godot-interactive-changelog/#4.3-stable'>Godot 4.3</a>.",
     "small": "Godot",
     "category": "game"
   },
@@ -199,6 +217,7 @@
     "title": "Godot 4.2.2 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.2.2-sandbox-3d",
     "text": "A 3D sandbox for v4.2.2 of the Godot game engine.",
+    "goal": "To familiarize myself with the new features in <a href='https://godotengine.github.io/godot-interactive-changelog/#4.2.2-stable'>Godot 4.2.2</a>.'",
     "small": "Godot",
     "category": "game"
   },
@@ -209,6 +228,7 @@
     "title": "Block and Item Display (Bedrock)",
     "url": "//github.com/kirbycope/display-bedrock",
     "text": "Block and item display entities for Minecraft Bedrock Edition.",
+    "goal": "To recreate <a href='https://minecraft.fandom.com/wiki/Display#:~:text=Display%20entities%20are%20entities%20useful,summon%20or%20%2Fexecute%20summon%20command.'>BlockDisplay and ItemDisplay</a> from Minecraft Java Edition.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -219,6 +239,7 @@
     "title": "Soccer Ball (Bedrock)",
     "url": "//github.com/kirbycope/soccer-bedrock",
     "text": "An interactive soccer ball for Minecraft Bedrock Edition.",
+    "goal": "Checking out entity <a href='https://learn.microsoft.com/en-us/minecraft/creator/reference/content/entityreference/examples/entitycomponents/minecraftcomponent_physics?view=minecraft-bedrock-stable'>collision</a> and <a href='https://learn.microsoft.com/en-us/minecraft/creator/reference/content/entityreference/examples/entitycomponents/minecraftcomponent_interact?view=minecraft-bedrock-stable'>interaction</a>.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -229,6 +250,7 @@
     "title": "Portal (Bedrock)",
     "url": "//github.com/kirbycope/portal-bedrock",
     "text": "Portal (PC, 2007) made using Minecraft Bedrock Edition.",
+    "goal": "To test the limits of my knowledge making Minecraft addons.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -239,6 +261,7 @@
     "title": "Editor Plugin Web View",
     "url": "//github.com/kirbycope/EditorPluginWebView",
     "text": "A WebView using the Godot EditorPlugin class.",
+    "goal": "Recreate and improve upon the <a href='http://github.com/kirbycope/EditorWindowWebView#readme'>Unity version</a>.",
     "small": "Godot",
     "category": "dev"
   },
@@ -250,6 +273,7 @@
     "url": "//github.com/kirbycope/candy-match",
     "play": "//timothycope.com/candy-match",
     "text": "A vibrant and addictive match 3 puzzle game.",
+    "goal": "Create a casual, mobile focued game using Godot.",
     "small": "Godot",
     "category": "game"
   },
@@ -261,6 +285,7 @@
     "url": "//github.com/kirbycope/minecraft-godot",
     "play": "//timothycope.com/minecraft-godot",
     "text": "A demake of Minecraft (PC 2011) using the Godot game engine.",
+    "goal": "Apply the lessons learned in tutorials to a new game.",
     "small": "Godot",
     "category": "game"
   },
@@ -272,6 +297,7 @@
     "url": "//github.com/kirbycope/zelda-godot",
     "play": "//timothycope.com/zelda-godot",
     "text": "The Legend of Zelda (NES 1986) made using the Godot game engine.",
+    "goal": "Create a game, following a tutorial, to learn the Godot engine.",
     "small": "Godot",
     "category": "game"
   },
@@ -282,6 +308,7 @@
     "title": "Cypress JavaScript",
     "url": "//github.com/kirbycope/cypress-javascript",
     "text": "An example test automation suite using Cypress and JavaScript.",
+    "goal": "Learn how to use Cypress for end-to-end testing.",
     "small": "JavaScript",
     "category": "test"
   },
@@ -292,6 +319,7 @@
     "title": "Playwright TypeScript",
     "url": "//github.com/kirbycope/playwright-typescript",
     "text": "An example test automation suite using Playwright and TypeScript.",
+    "goal": "Learn how to use Playwright for end-to-end testing.",
     "small": "TypeScript",
     "category": "test"
   },
@@ -302,6 +330,7 @@
     "title": "Cobblemon (Bedrock)",
     "url": "//github.com/kirbycope/cobblemon-bedrock",
     "text": "An open-source Pokémon mod ported to Minecraft Bedrock Edition.",
+    "goal": "Use <a href='https://learn.microsoft.com/en-us/minecraft/creator/reference/content/entityreference/examples/entitycomponents/minecraftcomponent_transformation?view=minecraft-bedrock-stable'>transformation</a> to evolve entities.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -312,6 +341,7 @@
     "title": "Bonus Chest (Java)",
     "url": "//github.com/kirbycope/bonus-chest-java",
     "text": "A challenge map where you spawn in a void world with only the bonus chest.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -322,6 +352,7 @@
     "title": "One Block (Bedrock)",
     "url": "//github.com/kirbycope/one-block-bedrock",
     "text": "Mine a single floating block to build your world and defeat the Ender Dragon.",
+    "goal": "Recreate the Minecraft Java Edition mod <a href='https://ijaminecraft.com/map/oneblock/'>OneBlock</a>.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -332,6 +363,7 @@
     "title": "Animal Crafting (Bedrock)",
     "url": "//github.com/kirbycope/animal-crafting-bedrock",
     "text": "Animal Forest (N64, 2001) meets Minecraft Bedrock Edition (PC, 2011).",
+    "goal": "Test the <a href='https://learn.microsoft.com/en-us/minecraft/creator/documents/camerasystem/cameracommandintroduction?view=minecraft-bedrock-stable'>camera system</a> changes in <a href='https://www.minecraft.net/en-us/article/minecraft-1-20-30-update-now-available-bedrock'>1.20.30</a>.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -342,6 +374,7 @@
     "title": "Secret Life (Bedrock)",
     "url": "//github.com/kirbycope/secret-life-bedrock",
     "text": "Secret Life series map with addon for Minecraft Bedrock Edition.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -352,6 +385,7 @@
     "title": "Secret Life (Java)",
     "url": "//github.com/kirbycope/secret-life-java",
     "text": "Secret Life series map with data pack for Minecraft Java Edition.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -362,6 +396,7 @@
     "title": "Secret Life (Data Pack)",
     "url": "//github.com/kirbycope/secret-life-datapack",
     "text": "Secret Life series data pack for Minecraft Java Edition.",
+    "goal": "Create a mod based on a YouTube video.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -372,6 +407,7 @@
     "title": "SkyBlock: Four Sticks (Bedrock)",
     "url": "//github.com/kirbycope/skyblock-four-sticks-bedrock",
     "text": "A multiplayer SkyBlock where each player gets an island.",
+    "goal": "Make a map for my spouse and I to play together.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -382,6 +418,7 @@
     "title": "Crossy Road (Bedrock)",
     "url": "//github.com/kirbycope/crossy-road-bedrock",
     "text": "Mysticat's Crossy Road for Minecraft Bedrock Edition.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -392,6 +429,7 @@
     "title": "Crossy Road (Java)",
     "url": "//github.com/kirbycope/crossy-road-java",
     "text": "Mysticat's Crossy Road for Minecraft Java Edition.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -402,6 +440,7 @@
     "title": "Super Mario Bros (Java)",
     "url": "//github.com/kirbycope/smb-java",
     "text": "Super Mario Brothers for Minecraft Java Edition.",
+    "goal": "To create a custom WASD, Jump, and Crouch based controller.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -412,6 +451,7 @@
     "title": "Super Mario Bros (Bedrock)",
     "url": "//github.com/kirbycope/smb-bedrock",
     "text": "Super Mario Brothers for Minecraft Bedrock Edition.",
+    "goal": "To create a custom WASD, Jump, and Crouch based controller.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -423,6 +463,7 @@
     "url": "//github.com/kirbycope/AlleyCat",
     "play": "//timothycope.com/AlleyCat",
     "text": "Alley Cat (PC, 1983) remade for the Unity game engine.",
+    "goal": "Recreate a classic game from my spouse's childhood.",
     "small": "Unity",
     "category": "game"
   },
@@ -432,6 +473,7 @@
     "title": "Unity Jenkins Pipeline",
     "url": "//github.com/kirbycope/unity-jenkins",
     "text": "Build your Unity game using a declarative Jenkins pipeline.",
+    "goal": "Proof of Concept for a Unity build pipeline.",
     "small": "Groovy",
     "category": "dev"
   },
@@ -441,6 +483,7 @@
     "title": "Jenkins Shared Library",
     "url": "//github.com/kirbycope/jenkins-shared-library",
     "text": "Groovy scripts shared between different Jenkins jobs.",
+    "goal": "Learn how to use Jenkins Shared Libraries.",
     "small": "Groovy",
     "category": "dev"
   },
@@ -451,6 +494,7 @@
     "title": "Editor Window Web View (Unity)",
     "url": "//github.com/kirbycope/EditorWindowWebView",
     "text": "A WebView using the Unity EditorWindow class.",
+    "goal": "Construct an <a href='https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow.html'>EditorWindow</a> as an introduction to Unity.",
     "small": "Unity",
     "category": "dev"
   },
@@ -460,6 +504,7 @@
     "title": "AltTester Instrumenter",
     "url": "//github.com/kirbycope/AltTester-Instrumenter",
     "text": "Instruments your Unity games with AltTester.",
+    "goal": "Create a tool to help with testing Unity games.",
     "small": "Python",
     "category": "test"
   },
@@ -470,6 +515,7 @@
     "title": "Minecraft Legends Mobs",
     "url": "//github.com/kirbycope/Minecraft-Legends-Mobs-Bedrock",
     "text": "All the mobs from Minecraft Legends in Minecraft Bedrock Edition.",
+    "goal": "Board the hype train for the upcoming game.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -480,6 +526,7 @@
     "title": "Minecraft Earth Mobs",
     "url": "//github.com/kirbycope/Minecraft-Earth-Mobs-Bedrock",
     "text": "All the mobs from Minecraft Earth in Minecraft Bedrock Edition.",
+    "goal": "Bring back all the characters from the cancelled game.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -490,6 +537,7 @@
     "title": "MineKart",
     "url": "//github.com/kirbycope/MineKart",
     "text": "Minecraft meets Mario Kart in this multiplayer mash-up.",
+    "goal": "To run commands when using items using <a href='https://learn.microsoft.com/en-us/minecraft/creator/reference/content/animationsreference/examples/animationcontroller?view=minecraft-bedrock-stable'>Animation Controllers</a>.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -500,6 +548,7 @@
     "title": "Tarot-able (Unity)",
     "url": "//github.com/kirbycope/tarot-able-unity",
     "text": "A tarot card reading app for Unity (2D) with simple animations.",
+    "goal": "To create a tarot card reading app for mobile using Unity.",
     "small": "Unity",
     "category": "game"
   },
@@ -510,6 +559,7 @@
     "title": "Tarot-able (Web)",
     "url": "//github.com/kirbycope/tarot-able",
     "text": "A tarot card reading app and dictionary with simple animations.",
+    "goal": "To create a tarot card reading app for web using JavaScript.",
     "small": "JavaScript",
     "category": "dev"
   },
@@ -520,6 +570,7 @@
     "title": "Mine Pikmin",
     "url": "//github.com/kirbycope/mine-pikmin",
     "text": "A Pikmin mob for Minecraft Bedrock Edition.",
+    "goal": "To create a fun mob for my child to play with.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -529,6 +580,7 @@
     "title": "TimothyCope.com",
     "url": "//github.com/kirbycope/kirbycope.github.io",
     "text": "A portfolio site showcasing the talents of Timothy Cope.",
+    "goal": "To create a personal website to showcase my work.",
     "small": "JavaScript",
     "category": "dev"
   },
@@ -539,6 +591,7 @@
     "title": "Map Markers (Java)",
     "url": "//github.com/kirbycope/map-markers-java",
     "text": "Use a Python script to create map art in Minecraft Java.",
+    "goal": "Create a map markers in Minecraft using Python to speed up the process.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -548,6 +601,7 @@
     "title": "VSeeFace Minecraft",
     "url": "//github.com/kirbycope/vseeface-minecraft",
     "text": "A motion capatured, Minecraft avatar for VSeeFace.",
+    "goal": "To create a custom avatar for to use in VSeeFace.",
     "small": "Unity",
     "category": "game"
   },
@@ -558,6 +612,7 @@
     "title": "Item Rush (Bedrock)",
     "url": "//github.com/kirbycope/item-rush-bedrock",
     "text": "Item Rush game mode for Minecraft Bedrock Edition.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -568,6 +623,7 @@
     "title": "Item Rush (Java)",
     "url": "//github.com/kirbycope/item-rush-java",
     "text": "Item Rush game mode for Minecraft Java Edition.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -578,6 +634,7 @@
     "title": "Build Below Bedrock",
     "url": "//github.com/kirbycope/build-below-bedrock",
     "text": "Build in the void below the bedrock layer in Minecraft Java.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -588,6 +645,7 @@
     "title": "Mysticar (Bedrock)",
     "url": "//github.com/kirbycope/mysticar-bedrock",
     "text": "The Mysticat car for Minecraft Bedrock Edition.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -598,6 +656,7 @@
     "title": "Mysticar (Java)",
     "url": "//github.com/kirbycope/mysticar-java",
     "text": "The Mysticat car for Minecraft Java Edition.",
+    "goal": "Create a map based on a YouTube video.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -608,6 +667,7 @@
     "title": "SkyBlock: Four Sticks",
     "url": "//github.com/kirbycope/skyblock-four-sticks",
     "text": "A multiplayer SkyBlock where each player gets an island.",
+    "goal": "Make a map for my spouse and I to play together.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -618,6 +678,7 @@
     "title": "Expanding World",
     "url": "//github.com/kirbycope/expanding-world",
     "text": "The world border starts at 16x16 area and expands each in-game day.",
+    "goal": "Make a map based on the YouTube trend of playing in a confined space.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -628,6 +689,7 @@
     "title": "MinecRAFT",
     "url": "//github.com/kirbycope/minecRAFT",
     "text": "Raft throws you and your friends into an epic oceanic adventure!",
+    "goal": "Create a map based on the game Raft.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -638,6 +700,7 @@
     "title": "Little Buddy",
     "url": "//github.com/kirbycope/little-buddy",
     "text": "A little buddy to adventure with you in Minecraft Bedrock Edition.",
+    "goal": "Bring my family into the game.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -648,6 +711,7 @@
     "title": "Hearthstone Bedrock",
     "url": "//github.com/kirbycope/hearthstone-bedrock",
     "text": "A Warcraft hearthstone for Minecraft Bedrock Edition.",
+    "goal": "Return home without dying and returning to my bed.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -658,6 +722,7 @@
     "title": "World of Minecraft",
     "url": "//github.com/kirbycope/world-of-minecraft",
     "text": "World of Warcraft but in Minecraft Java Edition.",
+    "goal": "Create a robust queting system.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -668,6 +733,7 @@
     "title": "Mob Spawner Bedrock",
     "url": "//github.com/kirbycope/mob-spawner-bedrock",
     "text": "Create mob spawning towers by placing a custom block.",
+    "goal": "Save time by placing a block instead of building a spawner by hand.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -678,6 +744,7 @@
     "title": "Bedrock Earth",
     "url": "//github.com/kirbycope/Bedrock-Earth",
     "text": "A couple mobs and a custom map inspired by Minecraft Earth.",
+    "goal": "Pay respects to a now defunct game.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -688,6 +755,7 @@
     "title": "SkyBlock (Bedrock)",
     "url": "//github.com/kirbycope/SkyBlock-Bedrock",
     "text": "Skyblock is one of the most popular survival gamemodes.",
+    "goal": "Recreate the features from HyPixel Skyblock.",
     "small": "MCTemplate",
     "category": "game"
   },
@@ -698,6 +766,7 @@
     "title": "SkyBlock (Java)",
     "url": "//github.com/kirbycope/SkyBlock",
     "text": "Skyblock is one of the most popular survival gamemodes.",
+    "goal": "Recreate the features from HyPixel Skyblock.",
     "small": "MCFunction",
     "category": "game"
   },
@@ -708,6 +777,7 @@
     "title": "CopeCraft",
     "url": "//github.com/kirbycope/CopeCraft",
     "text": "A skyblock farming sim using a custom map and scripts.",
+    "goal": "Learn how to create a MineCraft map.",
     "small": "MCFunction",
     "category": "game"
   },

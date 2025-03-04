@@ -163,11 +163,22 @@ function populateProjects(projects) {
     cardBody.appendChild(cardText);
 
     //<p class="text-body-secondary">
-    if (projects[i].why !== undefined) {
-      var cardTextSecondary = document.createElement("p");
-      cardTextSecondary.classList.add("text-body-secondary");
-      cardTextSecondary.innerText = "❔ " + projects[i].why;
-      cardBody.appendChild(cardTextSecondary);
+    if (projects[i].goal !== undefined) {
+
+      //<details style="padding-bottom: 0.5rem;">
+      var details = document.createElement("details");
+      details.style.paddingBottom = "0.5rem";
+      cardBody.appendChild(details);
+
+      // <summary><strong>Project Goal</strong></summary>
+      var summary = document.createElement("summary");
+      summary.innerHTML = "<strong>Project Goal</strong>";
+      details.appendChild(summary);
+
+      // <p>Testing <a href="https://docs.godotengine.org/en/stable/classes/class_softbody3d.html" target="_blank">SoftBody3D</a> physics and refraction shaders.</p>
+      var goal = document.createElement("p");
+      goal.innerHTML = projects[i].goal;
+      details.appendChild(goal);
     }
 
     // <div class="d-flex justify-content-between align-items-center">
@@ -277,6 +288,7 @@ window.onload = function () {
 };
 
 // ----------------------------------------
+
 /** 
  * Mobile viewport detection script for video preview
  * Enables video previews when thumbnails are in middle third of screen
