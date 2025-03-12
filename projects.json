@@ -1,6 +1,18 @@
 [
   {
     "created": "Mar 2025",
+    "thumbnail": "godot-hterrain-example.png",
+    "preview": "godot-hterrain-example.mp4",
+    "title": "Heightmap Terrain Example",
+    "url": "//github.com/kirbycope/godot-hterrain-example",
+    "play": "//timothycope.com/godot-hterrain-example",
+    "text": "Stonehenge recreated using the Godot game engine.",
+    "goal": "To try out the <a href='https://hterrain-plugin.readthedocs.io/en/latest/'>HTerrain</a> plugin for Godot.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Mar 2025",
     "thumbnail": "godot-4.4-sandbox-3d.png",
     "preview": "godot-4.4-sandbox-3d.mp4",
     "title": "Godot 4.3 Sandbox 3D",
