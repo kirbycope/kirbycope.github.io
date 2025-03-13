@@ -1,13 +1,24 @@
 [
   {
     "created": "Mar 2025",
+    "thumbnail": "godot-terrain3d-example.png",
+    "preview": "godot-terrain3d-example.mp4",
+    "title": "Terrain3D Example",
+    "url": "//github.com/kirbycope/godot-terrain3d-example",
+    "text": "Stonehenge recreated using the Godot game engine.",
+    "goal": "Trying out the <a href='https://github.com/TokisanGames/Terrain3D'>Terrain3D</a> plugin for Godot.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Mar 2025",
     "thumbnail": "godot-hterrain-example.png",
     "preview": "godot-hterrain-example.mp4",
     "title": "Heightmap Terrain Example",
     "url": "//github.com/kirbycope/godot-hterrain-example",
     "play": "//timothycope.com/godot-hterrain-example",
     "text": "Stonehenge recreated using the Godot game engine.",
-    "goal": "To try out the <a href='https://hterrain-plugin.readthedocs.io/en/latest/'>HTerrain</a> plugin for Godot.",
+    "goal": "Trying out the <a href='https://hterrain-plugin.readthedocs.io/en/latest/'>HTerrain</a> plugin for Godot.",
     "small": "Godot",
     "category": "game"
   },
