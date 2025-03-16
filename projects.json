@@ -5,6 +5,7 @@
     "preview": "godot-terrain3d-example.mp4",
     "title": "Terrain3D Example",
     "url": "//github.com/kirbycope/godot-terrain3d-example",
+    "play": "//timothycope.com/godot-terrain3d-example",
     "text": "Stonehenge recreated using the Godot game engine.",
     "goal": "Trying out the <a href='https://github.com/TokisanGames/Terrain3D'>Terrain3D</a> plugin for Godot.",
     "small": "Godot",
