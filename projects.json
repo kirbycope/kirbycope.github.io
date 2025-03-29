@@ -1,6 +1,17 @@
 [
   {
     "created": "Mar 2025",
+    "thumbnail": "godot-asset-loader.png",
+    "preview": "godot-asset-loader.mp4",
+    "title": "Godot Asset Loader",
+    "url": "//github.com/kirbycope/godot-asset-loader",
+    "text": "Load your assets directly into the Godot game engine.",
+    "goal": "To manage assets I have acquired over the years.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Mar 2025",
     "thumbnail": "godot-terrain3d-example.png",
     "preview": "godot-terrain3d-example.mp4",
     "title": "Terrain3D Example",
