@@ -7,7 +7,7 @@
     "url": "//github.com/kirbycope/godot-zelda-links-awakening",
     "play": "//timothycope.com/godot-zelda-links-awakening",
     "text": "The Trendy Game from Zelda: Link's Awakening (Switch, 2019) made using the Godot game engine.",
-    "goal": "To manage assets I have acquired over the years.",
+    "goal": "Test <a href='https://docs.godotengine.org/en/stable/classes/class_rigidbody3d.html'>RigidBody3D</a> and <a href='https://docs.godotengine.org/en/stable/classes/class_staticbody3d.html'>StaticBody3D</a> interactions.",
     "small": "Godot",
     "category": "game"
   },
