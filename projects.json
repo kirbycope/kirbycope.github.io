@@ -1,6 +1,17 @@
 [
   {
     "created": "Mar 2025",
+    "thumbnail": "godot-zelda-links-awakening.png",
+    "preview": "godot-zelda-links-awakening.mp4",
+    "title": "Trendy Game",
+    "url": "//github.com/kirbycope/godot-zelda-links-awakening",
+    "text": "The Trendy Game from Zelda: Link's Awakening (Switch, 2019) made using the Godot game engine.",
+    "goal": "To manage assets I have acquired over the years.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Mar 2025",
     "thumbnail": "godot-asset-loader.png",
     "preview": "godot-asset-loader.mp4",
     "title": "Godot Asset Loader",
