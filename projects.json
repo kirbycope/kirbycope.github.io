@@ -1,6 +1,18 @@
 [
   {
     "created": "Apr 2025",
+    "thumbnail": "godot-half-life-2.png",
+    "preview": "godot-half-life-2.mp4",
+    "title": "Half-Life 2",
+    "url": "//github.com/kirbycope/godot-half-life-2",
+    "play": "//timothycope.com/godot-half-life-2",
+    "text": "Half-life 2 (PC, 2004) made using the Godot game engine.",
+    "goal": "Try out the <a href='https://docs.godotengine.org/en/stable/classes/class_physicalbone3d.html#class-physicalbone3d'>PhysicalBone3D</a>.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Apr 2025",
     "thumbnail": "godot-zelda-links-awakening.png",
     "preview": "godot-zelda-links-awakening.mp4",
     "title": "Trendy Game",
