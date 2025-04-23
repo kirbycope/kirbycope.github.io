@@ -3,10 +3,10 @@
     "created": "Apr 2025",
     "thumbnail": "godot-half-life-2.png",
     "preview": "godot-half-life-2.mp4",
-    "title": "Half-Life 2",
+    "title": "Pick Up That Can",
     "url": "//github.com/kirbycope/godot-half-life-2",
     "play": "//timothycope.com/godot-half-life-2",
-    "text": "Half-life 2 (PC, 2004) made using the Godot game engine.",
+    "text": "The Pick Up That Can scene from Half-life 2 (PC, 2004) made using the Godot game engine.",
     "goal": "Make a ragdoll using <a href='https://docs.godotengine.org/en/stable/classes/class_physicalbone3d.html#class-physicalbone3d'>PhysicalBone3D</a>.",
     "small": "Godot",
     "category": "game"
