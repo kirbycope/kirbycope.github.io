@@ -1,5 +1,17 @@
 [
   {
+    "created": "May 2025",
+    "thumbnail": "godot-whack-a-mole.png",
+    "preview": "godot-whack-a-mole.mp4",
+    "title": "Whack-a-Mole",
+    "url": "//github.com/kirbycope/godot-whack-a-mole",
+    "play": "//timothycope.com/godot-whack-a-mole",
+    "text": "A Whack-a-Mole game made using the Godot game engine.",
+    "goal": "To try out the <a href='https://quiver.dev/'>Quiver</a> online high score framework.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Apr 2025",
     "thumbnail": "godot-half-life-2.png",
     "preview": "godot-half-life-2.mp4",
