@@ -1,5 +1,27 @@
 [
   {
+    "created": "Jun 2025",
+    "thumbnail": "godot-virtual-controller.png",
+    "title": "Virtual Controller",
+    "url": "//github.com/kirbycope/godot-virtual-controller",
+    "play": "//timothycope.com/godot-virtual-controller",
+    "text": "A [physical and] virtual controller made using the Godot game engine.",
+    "goal": "Create a shared resource between Godot projects.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Jun 2025",
+    "thumbnail": "godot-crop-duster.png",
+    "title": "Crop Duster",
+    "url": "//github.com/kirbycope/godot-crop-duster",
+    "play": "//timothycope.com/godot-crop-duster",
+    "text": "A soft-of mash up of Snake and Pac-Man.",
+    "goal": "Make a game I thought of when the first iPhone came out.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "May 2025",
     "thumbnail": "godot-whack-a-mole.png",
     "preview": "godot-whack-a-mole.mp4",
