@@ -1,5 +1,29 @@
 [
   {
+    "created": "Jul 2025",
+    "thumbnail": "godot-super-mario-odyssey.png",
+    "preview": "godot-super-mario-odyssey.mp4",
+    "title": "Super Mario Odyssey",
+    "url": "//github.com/kirbycope/godot-super-mario-odyssey",
+    "play": "//timothycope.com/godot-super-mario-odyssey",
+    "text": "Bonneton from Super Mario Odyssey (2017) made using the Godot game engine.",
+    "goal": "Play with <a href='https://docs.godotengine.org/en/stable/tutorials/3d/volumetric_fog.html'>volumetric fog and fog volumes</a> in Godot.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Jun 2025",
+    "thumbnail": "godot-zelda-breath-of-the-wild.png",
+    "preview": "godot-zelda-breath-of-the-wild.mp4",
+    "title": "Virtual Controller",
+    "url": "//github.com/kirbycope/godot-zelda-breath-of-the-wild",
+    "play": "//timothycope.com/godot-zelda-breath-of-the-wild",
+    "text": "Link's house from The Legend of Zelda: Breath of the Wild (2017) made using the Godot game engine.",
+    "goal": "To try <a href='https://github.com/TokisanGames/Sky3D'>Sky3D</a> and <a href='https://docs.godotengine.org/en/stable/classes/class_gpuparticles3d.html'>GPUParticles3D</a>.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Jun 2025",
     "thumbnail": "godot-virtual-controller.png",
     "preview": "godot-virtual-controller.mp4",
