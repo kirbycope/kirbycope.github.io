@@ -3,8 +3,10 @@ function populateProjects(projects) {
   for (var i = 0; i < projects.length; i++) {
 
     // Append #readme to all GitHub URLs
-    if (projects[i].url.indexOf("github") !== -1) {
-      projects[i].url = projects[i].url + "#readme"
+    if (projects[i].url != undefined) {
+      if (projects[i].url.indexOf("github") !== -1) {
+        projects[i].url = projects[i].url + "#readme"
+      }
     }
 
     // <div class="col-md-4">
@@ -29,7 +31,14 @@ function populateProjects(projects) {
     // <a>
     var cardImageLink = document.createElement("a");
     cardImageLink.title = "Link to site for " + projects[i].title;
-    cardImageLink.href = projects[i].url;
+    if (projects[i].url === undefined) {
+      if (projects[i].play !== undefined) {
+        cardImageLink.href = projects[i].play;
+      }
+    }
+    else {
+      cardImageLink.href = projects[i].url;
+    }
     imageWrapper.appendChild(cardImageLink);
 
     // <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail">
@@ -200,9 +209,11 @@ function populateProjects(projects) {
     cardLink.classList.add("btn-sm");
     cardLink.classList.add("btn-outline-secondary");
     cardLink.setAttribute("role", "button");
-    cardLink.innerText = "Visit Site";
+    cardLink.innerText = "View Source";
     cardLink.href = projects[i].url;
-    buttonGroup.appendChild(cardLink);
+    if (cardLink.href.endsWith("undefined") == false) {
+      buttonGroup.appendChild(cardLink);
+    }
 
     // <a href="#" class="btn btn-sm btn-outline-primary" role="button"></a>
     var playLink = document.createElement("a");
@@ -213,8 +224,9 @@ function populateProjects(projects) {
     playLink.setAttribute("role", "button");
     playLink.innerText = "Play Game";
     playLink.href = projects[i].play;
-    if (playLink.href.endsWith("undefined") == false)
+    if (playLink.href.endsWith("undefined") == false) {
       buttonGroup.appendChild(playLink);
+    }
 
     // <small class="text-muted"></small>
     var smallText = document.createElement("small");
