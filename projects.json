@@ -5,7 +5,7 @@
     "preview": "godot-4.5-sandbox-3d.mp4",
     "title": "Godot 4.5 Sandbox 3D",
     "url": "//github.com/kirbycope/godot-4.5-sandbox-3d",
-    "play": "//timothycope.com/godot-4-5-sandbox-3d",
+    "play": "//timothycope.com/godot-4.5-sandbox-3d/",
     "text": "A 3D sandbox for v4.5 of the Godot game engine.",
     "goal": "To familiarize myself with the new features in <a href='https://godotengine.github.io/godot-interactive-changelog/#4.5-stable'>Godot 4.5</a>.",
     "small": "Godot",
