@@ -1,5 +1,16 @@
 [
   {
+    "created": "Aug 2025",
+    "thumbnail": "godot-4.5-sandbox-3d.png",
+    "preview": "godot-4.5-sandbox-3d.mp4",
+    "title": "Godot 4.5 Sandbox 3D",
+    "play": "//timothycope.com/godot-4-5-sandbox-3d",
+    "text": "A 3D sandbox for v4.5 of the Godot game engine.",
+    "goal": "To familiarize myself with the new features in <a href='https://godotengine.github.io/godot-interactive-changelog/#4.5-stable'>Godot 4.5</a>.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Jul 2025",
     "thumbnail": "godot-super-mario-odyssey.png",
     "preview": "godot-super-mario-odyssey.mp4",
