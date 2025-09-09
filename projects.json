@@ -1,6 +1,16 @@
 [
   {
     "created": "Aug 2025",
+    "thumbnail": "GodotSteam-SteamMultiplayerPeer-Example-3D.png",
+    "title": "GodotSteam SteamMultiplayerPeer Example 3D",
+    "url": "//github.com/kirbycope/GodotSteam-SteamMultiplayerPeer-Example-3D",
+    "text": "A 3D example for the GodotSteam and SteamMultiplayerPeer GDExtensions.",
+    "goal": "To use GodotSteam without a custom Godot Editor.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Aug 2025",
     "thumbnail": "godot-4.5-sandbox-3d.png",
     "preview": "godot-4.5-sandbox-3d.mp4",
     "title": "Godot 4.5 Sandbox 3D",
