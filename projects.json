@@ -4,7 +4,7 @@
     "thumbnail": "GodotSteam-SteamMultiplayerPeer-Example-3D.png",
     "title": "GodotSteam SteamMultiplayerPeer Example 3D",
     "url": "//github.com/kirbycope/GodotSteam-SteamMultiplayerPeer-Example-3D",
-    "text": "A 3D example for the GodotSteam and SteamMultiplayerPeer GDExtensions.",
+    "text": "A 3D example for the GodotSteam GDExtension and the Steam Multiplayer Peer GDExtension.",
     "goal": "To use GodotSteam without a custom Godot Editor.",
     "small": "Godot",
     "category": "game"
