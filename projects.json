@@ -1,5 +1,17 @@
 [
   {
+    "created": "Sep 2025",
+    "thumbnail": "roblox-kirbys-world.png",
+    "preview": "roblox-kirbys-world.mp4",
+    "title": "Kirby's World",
+    "url": "//github.com/kirbycope/roblox-kirbys-world",
+    "play": "//www.roblox.com/games/71088297730693/Kirbys-World",
+    "text": "The level from the 3D example for GodotSteam and Steam Multiplayer made using Roblox Studio.",
+    "goal": "To learn a little about <a href='https://create.roblox.com/'>Roblox Studio</a>.",
+    "small": "Roblox",
+    "category": "game"
+  },
+  {
     "created": "Aug 2025",
     "thumbnail": "GodotSteam-SteamMultiplayerPeer-Example-3D.png",
     "preview": "GodotSteam-SteamMultiplayerPeer-Example-3D.mp4",

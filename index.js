@@ -132,6 +132,9 @@ function populateProjects(projects) {
     else if (projects[i].small.indexOf("React") !== -1) {
       cardImageOverlay.setAttribute("src", "/img/react.png");
     }
+    else if (projects[i].small.indexOf("Roblox") !== -1) {
+      cardImageOverlay.setAttribute("src", "/img/roblox.png");
+    }
     else if (projects[i].small.indexOf("TI-BASIC") !== -1) {
       cardImageOverlay.setAttribute("src", "/img/ti-basic.png");
     }
