@@ -1,6 +1,17 @@
 [
   {
     "created": "Sep 2025",
+    "thumbnail": "godot-guild-wars.png",
+    "preview": "godot-guild-wars.mp4",
+    "title": "Wizard's Isle",
+    "play": "//timothycope.com/godot-guild-wars",
+    "text": "The Wizard's Isle from Guild Wars (PC, 2005) made using the Godot game engine.",
+    "goal": "To recreate Pre-Searing Ascalon.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2025",
     "thumbnail": "roblox-kirbys-world.png",
     "preview": "roblox-kirbys-world.mp4",
     "title": "Kirby's World",
