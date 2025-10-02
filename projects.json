@@ -6,7 +6,7 @@
     "title": "Wizard's Isle",
     "play": "//timothycope.com/godot-guild-wars",
     "text": "The Wizard's Isle from Guild Wars (PC, 2005) made using the Godot game engine.",
-    "goal": "To recreate Pre-Searing Ascalon.",
+    "goal": "Learn <a href='https://docs.godotengine.org/en/latest/tutorials/navigation/navigation_introduction_3d.html'>3D navigation</a> in Godot.",
     "small": "Godot",
     "category": "game"
   },
