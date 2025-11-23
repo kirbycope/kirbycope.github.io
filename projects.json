@@ -1,5 +1,17 @@
 [
   {
+    "created": "Oct 2025",
+    "thumbnail": "godot-3d-player-controller-v2.png",
+    "preview": "godot-3d-player-controller-v2.mp4",
+    "title": "Godot 3D Player Controller V2",
+    "url": "//github.com/kirbycope/godot-3d-player-controller-v2",
+    "play": "//timothycope.com/godot-3d-player-controller-v2",
+    "text": "A 3D Player Controller for the Godot game engine.",
+    "goal": "Create a reusable controller for a <a href='https://docs.godotengine.org/en/stable/classes/class_characterbody3d.html'>CharacterBody3D</a>.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Sep 2025",
     "thumbnail": "godot-guild-wars.png",
     "preview": "godot-guild-wars.mp4",
