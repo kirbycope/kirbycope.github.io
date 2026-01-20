@@ -1,0 +1,50 @@
+[
+    {
+        "url": "https://www.sun-sentinel.com/2005/04/24/eerie-undertakings/",
+        "date": "04/24/2005",
+        "title": "EERIE UNDERTAKINGS",
+        "description": "That time my friend group went Ghost Hunting with a reporter from the Sun-Sentinel."
+    },
+    {
+        "url": "https://www.hackster.io/news/timothy-cope-s-latest-gaming-pc-is-a-marvel-in-miniature-and-powered-by-a-raspberry-pi-487fae581bf2",
+        "date": "04/14/2021",
+        "title": "Timothy Cope's Latest Gaming PC is a Marvel in Miniature and Powered by a Raspberry Pi",
+        "description": "An article about my <a href=\"https://www.youtube.com/watch?v=PosVgWNoE08\">Raspberry Pi Gaming PC</a> project I shared on YouTube."
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=PrR_fhtnsyw&t=9203s",
+        "date": "09/07/2022",
+        "title":"THE CHANNEL TURNS 2 TODAY !!!!! | Reactions, chat, Dragonballz",
+        "description":"I donated $10 to a YouTuber, <a href=\"https://www.youtube.com/@quizzyondemand\">Quizzy</a> to coax him into playing a scary game."
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=FQkrLg7KEBc&t=11506s",
+        "date": "10/10/2022",
+        "title":"Dark Souls 3 NG+ Speedrun (and getting back with my ex???)",
+        "description":"I donated $5 to one of my favorite creators, <a href=\"https://www.youtube.com/channel/UCVIFCOJwv3emlVmBbPCZrvw\">Joel Haver</a>."
+    },
+    {
+        "url": "https://youtu.be/lyScvrv1OsY?t=30",
+        "date": "06/08/2023",
+        "title": "Unix: Bash Read First Line of File with Variable Assignment",
+        "description": "A discussion about a <a href=\"https://unix.stackexchange.com/questions/748240/bash-read-first-line-of-file-with-variable-assignment\">question I asked</a> on StackExchange."
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=hySHiiJ7LQg",
+        "date": "01/21/2024",
+        "title": "Ghost rider! // Secret life smp // Minecraft animation",
+        "description": "A YouTube animation using one of my <a href=\"https://www.planetminecraft.com/project/secret-life-smp-java-map-with-data-pack/\">Minecraft maps</a> shared on PlanetMinecraft."
+    },
+    {
+        "url": "https://youtu.be/0-7xLysGNNU?t=30",
+        "date": "11/29/2024",
+        "title": "custom track chaos! minecraft mariokart addon showcase!",
+        "description": "Showcasing a custom <a href=\"https://www.planetminecraft.com/mod/minekart-5843648/\">Mario Kart addon</a> I made for Minecraft."
+    },
+    {
+        "url": "https://youtu.be/p1ngJ_xSrCs?t=30",
+        "date": "02/05/2025",
+        "title": "We went through 1-1 from super mario bros but in minecraft! Minecraft crossy road, SMB, and portal!",
+        "description": "Showcasing a few <a href=\"https://www.planetminecraft.com/member/kirbycope/submissions/?morder=order_popularity\">Minecraft addons</a> I shared on PlanetMinecraft."
+    }
+]
