@@ -1,5 +1,15 @@
 [
   {
+    "created": "Mar 2026",
+    "thumbnail": "pytest-newrelic-snyk.png",
+    "title": "PyTest New Relic Snyk",
+    "url": "//github.com/kirbycope/pytest-newrelic-snyk",
+    "text": "A project integrating PyTest (Integration), Locust (Load), New Relic (Observability), and Snyk (Security).",
+    "goal": "To demonstrate the integration of <a href='https://docs.pytest.org/en/stable/'>PyTest</a>, <a href='https://locust.io/'>Locust</a>, <a href='https://docs.newrelic.com/docs/agents/python-agent/'>New Relic</a>, and <a href='https://snyk.io/'>Snyk</a>.",
+    "small": "Python",
+    "category": "test"
+  },
+  {
     "created": "Oct 2025",
     "thumbnail": "godot-3d-player-controller-v2.png",
     "preview": "godot-3d-player-controller-v2.mp4",
