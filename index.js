@@ -147,6 +147,9 @@ function populateProjects(projects) {
     else if (projects[i].small.indexOf("Unity") !== -1) {
       cardImageOverlay.setAttribute("src", "/img/unity.png");
     }
+    else if (projects[i].small.indexOf("C") !== -1) {
+      cardImageOverlay.setAttribute("src", "/img/c.png");
+    }
     cardImageLink.appendChild(cardImageOverlay);
 
     // <div class="card-body">
