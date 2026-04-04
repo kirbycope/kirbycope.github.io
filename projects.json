@@ -6,7 +6,7 @@
     "url": "//github.com/kirbycope/are-we-live",
     "text": "A Pico 2 W controlled 'ON AIR' light that turns on when I start streaming on Twitch.",
     "goal": "To get reacquainted with the C programming language and the wireless capabilities of the Pico 2 W.",
-    "small": "RPi, C",
+    "small": "Pico, C",
     "category": "pi"
   },
   {
