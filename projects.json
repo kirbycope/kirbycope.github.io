@@ -1,6 +1,16 @@
 [
   {
     "created": "Apr 2026",
+    "thumbnail": "godot-game-jam.png",
+    "title": "Godot Game Jam",
+    "url": "//github.com/kirbycope/godot-game-jam",
+    "text": "Why Wait for a Game Jam? Get started now and just release something already!",
+    "goal": "Encourage people (including myself) to release a game and not wait for artificial deadlines.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Apr 2026",
     "thumbnail": "are-we-live.png",
     "title": "Are We Live?",
     "url": "//github.com/kirbycope/are-we-live",
