@@ -1,6 +1,17 @@
 [
   {
     "created": "Apr 2026",
+    "thumbnail": "godot-3d-player-controller-v3.png",
+    "title": "Godot 3D Player Controller V3",
+    "url": "//github.com/kirbycope/godot-3d-player-controller-v3",
+    "play": "//timothycope.com/godot-3d-player-controller-v3",
+    "text": "A 3D Player Controller for the Godot game engine.",
+    "goal": "This time using <a href='https://docs.godotengine.org/en/stable/classes/class_animationtree.html'>AnimationTree</a> to control animation and not <code>_process()</code>.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Apr 2026",
     "thumbnail": "godot-game-jam.png",
     "title": "Godot Game Jam",
     "url": "//github.com/kirbycope/godot-game-jam",
