@@ -1,5 +1,27 @@
 [
   {
+    "created": "Aug 2026",
+    "thumbnail": "weather-fx.png",
+    "title": "Weather FX",
+    "url": "//github.com/kirbycope/weather-fx",
+    "play": "//timothycope.com/weather-fx",
+    "text": "A high-performance, modular climate and weather simulation system for Godot 4.8+",
+    "goal": "To create realistic weather effects using shaders and particle systems in Godot 4.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Aug 2026",
+    "thumbnail": "radi-ot.png",
+    "title": "Radi-ot!",
+    "url": "//github.com/kirbycope/radi-ot",
+    "play": "//timothycope.com/radi-ot",
+    "text": "A web-streaming radio player for Godot 4. Compatible with desktop, mobile, and web!",
+    "goal": "To try web streaming audio using HTTPS and the <a href='https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer3d.html'>AudioStreamPlayer3D</a> node.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Apr 2026",
     "thumbnail": "godot-3d-player-controller-v3.png",
     "title": "Godot 3D Player Controller V3",
