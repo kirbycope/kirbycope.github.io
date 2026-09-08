@@ -33,6 +33,17 @@
     "category": "game"
   },
   {
+    "created": "Aug 2026",
+    "thumbnail": "date-and-time.png",
+    "title": "Date and Time",
+    "url": "//github.com/kirbycope/date-and-time",
+    "play": "//timothycope.com/date-and-time",
+    "text": "In-game and in-editor date, time, and calendar progression system for Godot 4.8+",
+    "goal": "To run a day/night cycle and a full calendar from one node that scenes and other addons can read and react to.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Apr 2026",
     "thumbnail": "godot-3d-player-controller-v3.png",
     "title": "Godot 3D Player Controller V3",
