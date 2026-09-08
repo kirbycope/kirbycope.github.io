@@ -1,5 +1,16 @@
 [
   {
+    "created": "Sep 2026",
+    "thumbnail": "godot-doom-gdextension.png",
+    "title": "DOOM GDExtension",
+    "url": "//github.com/kirbycope/godot-doom-gdextension",
+    "play": "//timothycope.com/godot-doom-gdextension",
+    "text": "A GDExtension for the Godot game engine that allows you to play DOOM (1993) in Godot 4.",
+    "goal": "To experiment with running C code using GDExtensions and WebAssembly in Godot.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
     "created": "Aug 2026",
     "thumbnail": "weather-fx.png",
     "title": "Weather FX",
