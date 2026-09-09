@@ -1,6 +1,17 @@
 [
   {
     "created": "Sep 2026",
+    "thumbnail": "godot-controls.png",
+    "title": "Controls",
+    "url": "//github.com/kirbycope/godot-controls",
+    "play": "//timothycope.com/godot-controls",
+    "text": "On-screen input hints for Godot 4.8: shows which button does what, redraws itself for the device in hand, and maps every button to an action of your choosing.",
+    "goal": "To give any project a button-hint HUD it can map to its own actions, without dragging a player controller along with it.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2026",
     "thumbnail": "godot-doom-gdextension.png",
     "title": "DOOM GDExtension",
     "url": "//github.com/kirbycope/godot-doom-gdextension",
