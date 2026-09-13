@@ -1,6 +1,17 @@
 [
   {
     "created": "Sep 2026",
+    "thumbnail": "godot-alleycat-gdextension.png",
+    "title": "Alley Cat GDExtension",
+    "url": "//github.com/kirbycope/godot-alleycat-gdextension",
+    "play": "//timothycope.com/godot-alleycat-gdextension",
+    "text": "Alley Cat (PC, 1984) running inside Godot 4.8 as a GDExtension: an 8086 interpreter runs the original CAT.EXE and draws its 320x200 screen as a TextureRect you can drop into any scene.",
+    "goal": "To run the original game from its own executable instead of remaking it, on top of <a href='https://github.com/kirbycope/PureAlleyCat'>PureAlleyCat</a>, with input driven entirely by InputMap actions.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2026",
     "thumbnail": "godot-controls.png",
     "title": "Controls",
     "url": "//github.com/kirbycope/godot-controls",
