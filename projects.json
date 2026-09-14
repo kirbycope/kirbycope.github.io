@@ -1,6 +1,17 @@
 [
   {
     "created": "Sep 2026",
+    "thumbnail": "godot-npc-village.png",
+    "title": "NPC Village",
+    "url": "//github.com/kirbycope/godot-npc-village",
+    "play": "//timothycope.com/godot-npc-village",
+    "text": "A medieval village in Godot 4.8 whose villagers hold conversations nobody wrote. The Claude API writes the dialogue while the game runs and ElevenLabs speaks it, a different voice for each villager. Hold T and they answer you.",
+    "goal": "To find out whether a villager given a personality and a few things they are not saying makes better company than a dialogue tree, and to keep the web build talking with no API key by committing the spoken lines as a voice bank.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2026",
     "thumbnail": "godot-alleycat-gdextension.png",
     "title": "Alley Cat GDExtension",
     "url": "//github.com/kirbycope/godot-alleycat-gdextension",
