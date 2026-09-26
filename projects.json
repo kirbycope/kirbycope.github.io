@@ -1,6 +1,28 @@
 [
   {
     "created": "Sep 2026",
+    "thumbnail": "snow-deformation.png",
+    "title": "Snow Deformation",
+    "url": "//github.com/kirbycope/snow-deformation",
+    "play": "//timothycope.com/snow-deformation",
+    "text": "Real-time deformable snow for Godot 4.8+: footprints with berms, ploughed troughs, snowballs that grow as they roll, and a snow floor to surf on.",
+    "goal": "To leave tracks in deep snow that keep their shape after you walk away, with snowballs that grow as they roll, carved by compute shaders on the desktop and by a fragment fallback in the browser.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2026",
+    "thumbnail": "minimap.png",
+    "title": "Minimap",
+    "url": "//github.com/kirbycope/minimap",
+    "play": "//timothycope.com/minimap",
+    "text": "A round HUD minimap for Godot 4.8+, the Zelda and Mario Kart way: a live top-down view drawn without light or shadow.",
+    "goal": "To draw the minimap from the live world, or from a map scene of its own, so there is no hand-painted map to keep in step with the level.",
+    "small": "Godot",
+    "category": "game"
+  },
+  {
+    "created": "Sep 2026",
     "thumbnail": "godot-npc-village.png",
     "title": "NPC Village",
     "url": "//github.com/kirbycope/godot-npc-village",
