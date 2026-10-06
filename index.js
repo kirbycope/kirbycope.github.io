@@ -120,6 +120,9 @@ function populateProjects(projects) {
     else if (projects[i].small.indexOf("JavaScript") !== -1) {
       cardImageOverlay.setAttribute("src", "/img/javascript.png");
     }
+    else if (projects[i].small.indexOf("Lua") !== -1) {
+      cardImageOverlay.setAttribute("src", "/img/lua.png");
+    }
     else if (projects[i].small.indexOf("Node") !== -1) {
       cardImageOverlay.setAttribute("src", "/img/nodejs.png");
     }
