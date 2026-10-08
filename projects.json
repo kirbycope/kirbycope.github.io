@@ -32,17 +32,6 @@
   },
   {
     "created": "Oct 2026",
-    "thumbnail": "cobblemon-bedrock.png",
-    "preview": "cobblemon-bedrock.mp4",
-    "title": "Cobblemon (Bedrock)",
-    "url": "//github.com/kirbycope/cobblemon-bedrock",
-    "text": "An open-source Pokémon mod ported to Minecraft Bedrock Edition 1.26.52, featuring 904 Pokémon, turn-based battles with 696 moves, party and PC storage, 49 Poké Balls, riding, and Pokédex scanning.",
-    "goal": "Port Cobblemon from Java to Bedrock via scripts that convert models, animations, textures, sounds, and data without requiring experimental toggles. Available on <a href='https://www.planetminecraft.com/mod/cobblemon-bedrock-addon'>Planet Minecraft</a>.",
-    "small": "MCAddon",
-    "category": "game"
-  },
-  {
-    "created": "Oct 2026",
     "thumbnail": "suyu-apple-silicon.png",
     "preview": "suyu-apple-silicon.mp4",
     "title": "suyu (Apple Silicon)",
@@ -716,6 +705,17 @@
     "goal": "Learn how to use Playwright for end-to-end testing.",
     "small": "TypeScript",
     "category": "test"
+  },
+  {
+    "created": "Dec 2023",
+    "thumbnail": "cobblemon-bedrock.png",
+    "preview": "cobblemon-bedrock.mp4",
+    "title": "Cobblemon (Bedrock)",
+    "url": "//github.com/kirbycope/cobblemon-bedrock",
+    "text": "An open-source Pokémon mod ported to Minecraft Bedrock Edition 1.26.52, featuring 904 Pokémon, turn-based battles with 696 moves, party and PC storage, 49 Poké Balls, riding, and Pokédex scanning.",
+    "goal": "Port Cobblemon from Java to Bedrock via scripts that convert models, animations, textures, sounds, and data without requiring experimental toggles. Available on <a href='https://www.planetminecraft.com/mod/cobblemon-bedrock-addon'>Planet Minecraft</a>.",
+    "small": "MCAddon",
+    "category": "game"
   },
   {
     "created": "Dec 2023",
