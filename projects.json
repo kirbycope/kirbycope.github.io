@@ -2,6 +2,7 @@
   {
     "created": "Oct 2026",
     "thumbnail": "godot-desktop-pet.png",
+    "preview": "godot-desktop-pet.mp4",
     "title": "Desktop Pet",
     "url": "//github.com/kirbycope/godot-desktop-pet",
     "text": "A 3D rubber duck desktop pet for Godot 4 that chats, listens and speaks through local AI (Foundry Local, Kokoro), reads your screen, and remembers you.",
@@ -22,6 +23,7 @@
   {
     "created": "Oct 2026",
     "thumbnail": "godot-3d-player-controller-addon.png",
+    "preview": "godot-3d-player-controller-addon.mp4",
     "title": "3D Player Controller Addon",
     "url": "//github.com/kirbycope/godot-3d-player-controller-addon",
     "play": "//timothycope.com/godot-3d-player-controller-addon",
@@ -44,6 +46,7 @@
   {
     "created": "Sep 2026",
     "thumbnail": "snow-deformation.png",
+    "preview": "snow-deformation.mp4",
     "title": "Snow Deformation",
     "url": "//github.com/kirbycope/snow-deformation",
     "play": "//timothycope.com/snow-deformation",
@@ -55,6 +58,7 @@
   {
     "created": "Sep 2026",
     "thumbnail": "minimap.png",
+    "preview": "minimap.mp4",
     "title": "Minimap",
     "url": "//github.com/kirbycope/minimap",
     "play": "//timothycope.com/minimap",
@@ -66,6 +70,7 @@
   {
     "created": "Sep 2026",
     "thumbnail": "gta.png",
+    "preview": "gta.mp4",
     "title": "Godot Tim's Automobile",
     "url": "//github.com/kirbycope/gta",
     "play": "//timothycope.com/gta",
@@ -77,6 +82,7 @@
   {
     "created": "Sep 2026",
     "thumbnail": "tcps.png",
+    "preview": "tcps.mp4",
     "title": "Tim Cope's Pro Skater",
     "url": "//github.com/kirbycope/tcps",
     "play": "//timothycope.com/tcps",
@@ -88,6 +94,7 @@
   {
     "created": "Sep 2026",
     "thumbnail": "godot-npc-village.png",
+    "preview": "godot-npc-village.mp4",
     "title": "NPC Village",
     "url": "//github.com/kirbycope/godot-npc-village",
     "play": "//timothycope.com/godot-npc-village",
@@ -99,6 +106,7 @@
   {
     "created": "Sep 2026",
     "thumbnail": "godot-alleycat-gdextension.png",
+    "preview": "godot-alleycat-gdextension.mp4",
     "title": "Alley Cat GDExtension",
     "url": "//github.com/kirbycope/godot-alleycat-gdextension",
     "play": "//timothycope.com/godot-alleycat-gdextension",
@@ -110,6 +118,7 @@
   {
     "created": "Sep 2026",
     "thumbnail": "godot-controls.png",
+    "preview": "godot-controls.mp4",
     "title": "Controls",
     "url": "//github.com/kirbycope/godot-controls",
     "play": "//timothycope.com/godot-controls",
@@ -121,6 +130,7 @@
   {
     "created": "Sep 2026",
     "thumbnail": "godot-doom-gdextension.png",
+    "preview": "godot-doom-gdextension.mp4",
     "title": "DOOM GDExtension",
     "url": "//github.com/kirbycope/godot-doom-gdextension",
     "play": "//timothycope.com/godot-doom-gdextension",
@@ -132,6 +142,7 @@
   {
     "created": "Aug 2026",
     "thumbnail": "date-and-time.png",
+    "preview": "date-and-time.mp4",
     "title": "Date and Time",
     "url": "//github.com/kirbycope/date-and-time",
     "play": "//timothycope.com/date-and-time",
@@ -143,6 +154,7 @@
   {
     "created": "Aug 2026",
     "thumbnail": "weather-fx.png",
+    "preview": "weather-fx.mp4",
     "title": "Weather FX",
     "url": "//github.com/kirbycope/weather-fx",
     "play": "//timothycope.com/weather-fx",
@@ -154,6 +166,7 @@
   {
     "created": "Aug 2026",
     "thumbnail": "radi-ot.png",
+    "preview": "radi-ot.mp4",
     "title": "Radi-ot!",
     "url": "//github.com/kirbycope/radi-ot",
     "play": "//timothycope.com/radi-ot",
@@ -165,6 +178,7 @@
   {
     "created": "Apr 2026",
     "thumbnail": "godot-3d-player-controller-v3.png",
+    "preview": "godot-3d-player-controller-v3.mp4",
     "title": "Godot 3D Player Controller V3",
     "url": "//github.com/kirbycope/godot-3d-player-controller-v3",
     "play": "//timothycope.com/godot-3d-player-controller-v3",
@@ -176,6 +190,7 @@
   {
     "created": "Apr 2026",
     "thumbnail": "godot-game-jam.png",
+    "preview": "godot-game-jam.mp4",
     "title": "Godot Game Jam",
     "url": "//github.com/kirbycope/godot-game-jam",
     "text": "Why Wait for a Game Jam? Get started now and just release something already!",
@@ -298,6 +313,7 @@
   {
     "created": "Jun 2025",
     "thumbnail": "godot-crop-duster.png",
+    "preview": "godot-crop-duster.mp4",
     "title": "Crop Duster",
     "url": "//github.com/kirbycope/godot-crop-duster",
     "play": "//timothycope.com/godot-crop-duster",
