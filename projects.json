@@ -13,6 +13,7 @@
   {
     "created": "Oct 2026",
     "thumbnail": "world-of-doom.png",
+    "preview": "world-of-doom.mp4",
     "title": "World of Doom",
     "url": "//github.com/kirbycope/world-of-doom",
     "text": "DOOM E1M1 (Hangar) running inside World of Warcraft as an addon. The level, textures, sprites and lighting come from the shareware doom1.wad, and the renderer and game logic are written from scratch in Lua.",
