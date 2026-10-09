@@ -1,6 +1,17 @@
 [
   {
     "created": "Oct 2026",
+    "thumbnail": "minecRAFT-bedrock.png",
+    "preview": "minecRAFT-bedrock.mp4",
+    "title": "minecRAFT (Bedrock)",
+    "url": "//github.com/kirbycope/minecRAFT-bedrock",
+    "text": "Raft but in Minecraft, for Bedrock Edition: hook drifting flotsam, then throw your anchor to stop at Small Island 1.",
+    "goal": "To move a whole island smoothly in Bedrock: the raft never moves, the island drifts past as Block and Item Display entities, and it turns into real blocks you can climb, chop and mine when the anchor stops it.",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2026",
     "thumbnail": "godot-desktop-pet.png",
     "preview": "godot-desktop-pet.mp4",
     "title": "Desktop Pet",
