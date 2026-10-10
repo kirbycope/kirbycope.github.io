@@ -1,6 +1,17 @@
 [
   {
     "created": "Oct 2026",
+    "thumbnail": "minecraft-earth-redux.png",
+    "preview": "minecraft-earth-redux.mp4",
+    "title": "Minecraft Earth Redux",
+    "url": "//github.com/kirbycope/minecraft-earth-redux",
+    "text": "Self-host a playable Minecraft Earth: an APK patcher, a Solace server setup and an AWS Terraform deployment that wakes on launch and sleeps when idle. No Microsoft login.",
+    "goal": "To play Minecraft Earth again after its shutdown, on a server you run: the client is patched so sign-in and every service point at Solace, OpenStreetMap tiles put real streets under your character, and one small AWS box wakes when you open the game and sleeps when you stop.",
+    "small": "Bash, Terraform",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2026",
     "thumbnail": "minecRAFT-bedrock.png",
     "preview": "minecRAFT-bedrock.mp4",
     "title": "minecRAFT (Bedrock)",
