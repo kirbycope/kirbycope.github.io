@@ -1257,7 +1257,8 @@
   },
   {
     "created": "Feb 2021",
-    "thumbnail": "pico-display.png",
+    "thumbnail": "raspberry-pi-pico-display-games.png",
+    "preview": "raspberry-pi-pico-display-games.mp4",
     "title": "Pico Display Games",
     "url": "//github.com/kirbycope/raspberry-pi-pico-display-games",
     "play": "//timothycope.com/raspberry-pi-pico-display-games",
