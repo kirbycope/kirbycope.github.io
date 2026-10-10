@@ -1289,6 +1289,7 @@
     "thumbnail": "raspberry-pi-sense-hat-games.png",
     "title": "Raspberry Pi Sense Hat Games",
     "url": "//github.com/kirbycope/raspberry-pi-sense-hat-games",
+    "play": "//timothycope.com/raspberry-pi-sense-hat-games",
     "text": "Simple games made using the Sense HAT and its API.",
     "small": "RPi, Python",
     "category": "pi"
