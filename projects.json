@@ -27,8 +27,8 @@
     "preview": "godot-desktop-pet.mp4",
     "title": "Desktop Pet",
     "url": "//github.com/kirbycope/godot-desktop-pet",
-    "text": "A 3D rubber duck desktop pet for Godot 4 that chats, listens and speaks through local AI (Foundry Local, Kokoro), reads your screen, and remembers you.",
-    "goal": "To be a rubber duck you can explain your code to: it waddles along the taskbar in its own transparent window, reads the code on your screen with the operating system's OCR, and answers out loud, with the model running on your own NPU, GPU or CPU so nothing leaves the computer.",
+    "text": "A 3D rubber duck desktop pet for Godot 4 on Windows and macOS that chats, listens and speaks through local AI, reads your screen, remembers you and keeps a Pomodoro timer, with an Android app that drives it from your phone or runs its own model.",
+    "goal": "To be a rubber duck you can explain your code to: it waddles along the taskbar or Dock in its own transparent window, reads the code on your screen with the operating system's OCR, and answers out loud, with the model on your own NPU, GPU or CPU (Foundry Local, llama.cpp on a Mac, LiteRT-LM on the phone) so nothing leaves your devices.",
     "small": "Godot",
     "category": "game"
   },
