@@ -1,6 +1,17 @@
 [
   {
     "created": "Oct 2026",
+    "thumbnail": "skyblock-infinite-bedrock.png",
+    "preview": "skyblock-infinite-bedrock.mp4",
+    "title": "Skyblock Infinite (Bedrock)",
+    "url": "//github.com/kirbycope/skyblock-infinite-bedrock",
+    "text": "A Bedrock port of Dr.Trog's Skyblock Infinite data pack: an overworld that generates nothing at all, however far you travel, with all 47 of its islands scattered through the void.",
+    "goal": "To play the Java data pack on Bedrock, where a pack cannot replace world generation: the overworld is an empty void with no border, the islands are placed at the data pack's own coordinates, and a menu of picture buttons, each one a screenshot of the real island, lays the world out before you start.",
+    "small": "MCTemplate",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2026",
     "thumbnail": "minimap-bedrock.png",
     "preview": "minimap-bedrock.mp4",
     "title": "Minimap (Bedrock)",
