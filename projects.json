@@ -1,6 +1,17 @@
 [
   {
     "created": "Oct 2026",
+    "thumbnail": "minimap-bedrock.png",
+    "preview": "minimap-bedrock.mp4",
+    "title": "Minimap (Bedrock)",
+    "url": "//github.com/kirbycope/minimap-bedrock",
+    "text": "A minimap in the corner of the screen for Minecraft Bedrock Edition: the ground around you in Minecraft's own map colours, with mobs, players and which way is up.",
+    "goal": "To draw a map on a screen Bedrock gives add-ons no way to draw on. It is text: the pack ships a font whose every glyph is two stacked map pixels, so a block is five screen pixels and sixteen of them fit in the corner, and the map is written into the action bar five times a second.",
+    "small": "MCAddon",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2026",
     "thumbnail": "minecraft-earth-redux.png",
     "preview": "minecraft-earth-redux.mp4",
     "title": "Minecraft Earth Redux",
