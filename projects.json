@@ -5,8 +5,8 @@
     "preview": "shadPS4.mp4",
     "title": "shadPS4 (Apple Silicon)",
     "url": "//github.com/kirbycope/shadPS4",
-    "text": "A fork of the shadPS4 PlayStation 4 emulator that runs Everybody's Golf on an M4 Pro MacBook, under Rosetta 2 and Vulkan on Metal: from a black screen at boot to tournament rounds with sound.",
-    "goal": "To make an x86 PS4 emulator play a real game on Apple Silicon: a game patch that moves the allocator's heaps out of the GPU's address range, buffer pages hashed instead of write-protected (Rosetta 2 cannot resume a split AVX store that faults halfway), and fixes for a boot hang, a movie deadlock, a hub crash, missing faces and 5 fps on the course. Notes and patches are in the <a href='https://github.com/kirbycope/shadPS4/tree/main/macos'>macos folder</a>.",
+    "text": "A fork of the shadPS4 PlayStation 4 emulator that runs an M4 Pro MacBook, under Rosetta 2 and Vulkan on Metal: from a black screen at boot to tournament rounds with sound.",
+    "goal": "To play Ps4 on Mac Metal.",
     "small": "C++",
     "category": "dev"
   },
@@ -17,7 +17,7 @@
     "title": "Sword of Harkinian",
     "url": "//github.com/kirbycope/sword-of-harkinian",
     "text": "Sword Kirby as the player character in Ocarina of Time, running on Ship of Harkinian: both ages, every animation, the sword, shield and sheath, and Kirby's own voice.",
-    "goal": "To replace Link with Sword Kirby the way the port's own mods are made: a model assembled from three N64 rips, rigged to Link's real skeleton and exported with Harbour Masters' Fast64 fork, with every player animation re-posed for his short arms and legs. Scripts only; no Nintendo material.",
+    "goal": "To replace Link with Sword Kirby the way the port's own mods are made: a model, rigged to Link's real skeleton and exported with Harbour Masters' Fast64 fork, with every player animation re-posed for his short arms and legs.",
     "small": "Python, Blender",
     "category": "game"
   },
@@ -28,7 +28,7 @@
     "title": "Skyblock Infinite (Bedrock)",
     "url": "//github.com/kirbycope/skyblock-infinite-bedrock",
     "text": "A Bedrock port of Dr.Trog's Skyblock Infinite data pack: an overworld that generates nothing at all, however far you travel, with all 47 of its islands scattered through the void.",
-    "goal": "To play the Java data pack on Bedrock, where a pack cannot replace world generation: the overworld is an empty void with no border, the islands are placed at the data pack's own coordinates, and a menu of picture buttons, each one a screenshot of the real island, lays the world out before you start.",
+    "goal": "To play the Java data pack on Bedrock, where a pack cannot replace world generation.",
     "small": "MCTemplate",
     "category": "game"
   },
