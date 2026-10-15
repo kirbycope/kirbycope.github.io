@@ -6,7 +6,7 @@
     "title": "shadPS4 (Apple Silicon)",
     "url": "//github.com/kirbycope/shadPS4",
     "text": "A fork of the shadPS4 PlayStation 4 emulator that runs an M4 Pro MacBook, under Rosetta 2 and Vulkan on Metal: from a black screen at boot to tournament rounds with sound.",
-    "goal": "To play Ps4 on Mac Metal.",
+    "goal": "To play PS4 on Mac Metal.",
     "small": "C++",
     "category": "dev"
   },
@@ -17,7 +17,7 @@
     "title": "Sword of Harkinian",
     "url": "//github.com/kirbycope/sword-of-harkinian",
     "text": "Sword Kirby as the player character in Ocarina of Time, running on Ship of Harkinian: both ages, every animation, the sword, shield and sheath, and Kirby's own voice.",
-    "goal": "To replace Link with Sword Kirby the way the port's own mods are made: a model, rigged to Link's real skeleton and exported with Harbour Masters' Fast64 fork, with every player animation re-posed for his short arms and legs.",
+    "goal": "To replace Link with Sword Kirby in Ocarina of Time, with every animation and sound effect.",
     "small": "Python, Blender",
     "category": "game"
   },
