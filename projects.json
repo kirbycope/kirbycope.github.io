@@ -39,7 +39,7 @@
     "title": "Minimap (Bedrock)",
     "url": "//github.com/kirbycope/minimap-bedrock",
     "text": "A minimap in the corner of the screen for Minecraft Bedrock Edition: the ground around you in Minecraft's own map colours, with mobs, players and which way is up.",
-    "goal": "To draw a map on a screen Bedrock gives add-ons no way to draw on. It is text: the pack ships a font whose every glyph is two stacked map pixels, so a block is five screen pixels and sixteen of them fit in the corner, and the map is written into the action bar five times a second.",
+    "goal": "To draw a map on a screen Bedrock gives add-ons no way to draw on.",
     "small": "MCAddon",
     "category": "game"
   },
@@ -50,7 +50,7 @@
     "title": "Minecraft Earth Redux",
     "url": "//github.com/kirbycope/minecraft-earth-redux",
     "text": "Self-host a playable Minecraft Earth: an APK patcher, a Solace server setup and an AWS Terraform deployment that wakes on launch and sleeps when idle. No Microsoft login.",
-    "goal": "To play Minecraft Earth again after its shutdown, on a server you run: the client is patched so sign-in and every service point at Solace, OpenStreetMap tiles put real streets under your character, and one small AWS box wakes when you open the game and sleeps when you stop.",
+    "goal": "To play Minecraft Earth again after its shutdown, on a server you run.",
     "small": "Bash, Terraform",
     "category": "game"
   },
@@ -72,7 +72,7 @@
     "title": "Desktop Pet",
     "url": "//github.com/kirbycope/godot-desktop-pet",
     "text": "A 3D rubber duck desktop pet for Godot 4 on Windows and macOS that chats, listens and speaks through local AI, reads your screen, remembers you and keeps a Pomodoro timer, with an Android app that drives it from your phone or runs its own model.",
-    "goal": "To be a rubber duck you can explain your code to: it waddles along the taskbar or Dock in its own transparent window, reads the code on your screen with the operating system's OCR, and answers out loud, with the model on your own NPU, GPU or CPU (Foundry Local, llama.cpp on a Mac, LiteRT-LM on the phone) so nothing leaves your devices.",
+    "goal": "To create a Rubber Duck Debuggger.",
     "small": "Godot",
     "category": "game"
   },
@@ -83,7 +83,7 @@
     "title": "World of Doom",
     "url": "//github.com/kirbycope/world-of-doom",
     "text": "DOOM E1M1 (Hangar) running inside World of Warcraft as an addon. The level, textures, sprites and lighting come from the shareware doom1.wad, and the renderer and game logic are written from scratch in Lua.",
-    "goal": "Play DOOM in a client that cannot run native code or draw pixels, by walking the BSP tree and drawing every wall, floor and sprite as pooled textured strips and quads.",
+    "goal": "Play DOOM in a client that cannot run native code or draw pixels.",
     "small": "Lua",
     "category": "game"
   },
@@ -106,7 +106,7 @@
     "title": "suyu (Apple Silicon)",
     "url": "//github.com/kirbycope/suyu-v0.0.4",
     "text": "Native Apple Silicon build of the suyu Nintendo Switch emulator running on M4 Pro via MoltenVK and Metal, fixing 12 rendering and stability bugs to run Breath of the Wild artifact-free at 30 FPS.",
-    "goal": "Make upstream suyu run natively on Apple Silicon GPUs without tile corruption or heap crashes, working around tile-based deferred rendering limits. Ready-to-run .app available in <a href='https://github.com/kirbycope/suyu-v0.0.4/releases'>GitHub Releases</a>.",
+    "goal": "To play Switch on Mac Metal.",
     "small": "C++",
     "category": "dev"
   },
@@ -130,7 +130,7 @@
     "url": "//github.com/kirbycope/minimap",
     "play": "//timothycope.com/minimap",
     "text": "A round HUD minimap for Godot 4.8+, the Zelda and Mario Kart way: a live top-down view drawn without light or shadow.",
-    "goal": "To draw the minimap from the live world, or from a map scene of its own, so there is no hand-painted map to keep in step with the level.",
+    "goal": "To draw the minimap from the live world.",
     "small": "Godot",
     "category": "game"
   },
@@ -142,7 +142,7 @@
     "url": "//github.com/kirbycope/gta",
     "play": "//timothycope.com/gta",
     "text": "One rideable car chassis for Godot 4.8+ and four cars built on it, each driving like the game it comes from: a GTA V road car, a Twisted Metal 2 car, a Rocket League battle car and a Mario Kart 64 kart, each with a demo.",
-    "goal": "To see how far one chassis can go toward the handling of four very different driving games, with every tunable taken from the game itself.",
+    "goal": "To see how far one chassis can go toward the handling of four very different driving games.",
     "small": "Godot",
     "category": "game"
   },
@@ -154,7 +154,7 @@
     "url": "//github.com/kirbycope/tcps",
     "play": "//timothycope.com/tcps",
     "text": "A rideable skateboard for Godot 4.8+ with tricks, grinds and its own camera, built on the player controller's riding contract.",
-    "goal": "To bring the feel of Tony Hawk's Underground to a Godot skateboard, with the pushes, ollies, grinds and scores taken from that game's own numbers.",
+    "goal": "To bring the feel of Tony Hawk's Underground to a Godot skateboard.",
     "small": "Godot",
     "category": "game"
   },
@@ -166,7 +166,7 @@
     "url": "//github.com/kirbycope/godot-npc-village",
     "play": "//timothycope.com/godot-npc-village",
     "text": "A medieval village in Godot 4.8 whose villagers hold conversations nobody wrote. The Claude API writes the dialogue while the game runs and ElevenLabs speaks it, a different voice for each villager. Hold T and they answer you.",
-    "goal": "To find out whether a villager given a personality and a few things they are not saying makes better company than a dialogue tree, and to keep the web build talking with no API key by committing the spoken lines as a voice bank.",
+    "goal": "To get AI based NPCs to hold conversations with each other and the player, in real time.",
     "small": "Godot",
     "category": "game"
   },
