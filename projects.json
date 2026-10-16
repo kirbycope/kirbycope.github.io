@@ -1,6 +1,17 @@
 [
   {
     "created": "Oct 2026",
+    "thumbnail": "break-all-things-bedrock.png",
+    "preview": "break-all-things-bedrock.mp4",
+    "title": "Break All the Things! (Bedrock)",
+    "url": "//github.com/kirbycope/break-all-things-bedrock",
+    "text": "Two tools for Minecraft Bedrock: a pickaxe that mines a whole ore vein and an axe that fells a whole tree, leaves and all.",
+    "goal": "To mine a whole vein or fell a whole tree in one swing.",
+    "small": "MCAddon",
+    "category": "game"
+  },
+  {
+    "created": "Oct 2026",
     "thumbnail": "shadPS4.png",
     "preview": "shadPS4.mp4",
     "title": "shadPS4 (Apple Silicon)",
