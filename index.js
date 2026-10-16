@@ -6,6 +6,40 @@ var viewSites = {
   "planetminecraft.com": "Planet Minecraft"
 };
 
+/**
+ * Plays a card's preview video over its thumbnail. The thumbnail never hides:
+ * the video is only made visible once it is actually playing, so there is no
+ * blank frame while it loads.
+ */
+function playPreview(video) {
+  video.muted = true;
+  // Set src only when wanted, to avoid loading every video up front
+  if (!video.currentSrc && video.querySelector('source')) {
+    video.src = video.querySelector('source').src;
+  }
+  var playPromise = video.play();
+  if (playPromise !== undefined) {
+    playPromise.then(function () {
+      // Stopped again before it started (mouse left, scrolled away)
+      if (!video.paused) {
+        video.classList.add("playing");
+      }
+    }).catch(function (error) {
+      console.log("Auto-play was prevented:", error);
+    });
+  }
+}
+
+/** Stops a card's preview video, leaving the thumbnail beneath it showing. */
+function stopPreview(video) {
+  video.classList.remove("playing");
+  try {
+    video.pause();
+  } catch (e) {
+    // Ignore errors on pause
+  }
+}
+
 /** Populates the Projects cards on the page. */
 function populateProjects(projects) {
   for (var i = 0; i < projects.length; i++) {
@@ -64,25 +98,17 @@ function populateProjects(projects) {
     if (projects[i].preview !== undefined) {
       // Add listener to show preview on hover
       imageWrapper.addEventListener("mouseenter", function () {
-        var thumbnail = this.querySelector('.card-img-top');
-        thumbnail.style.display = "none";
-        var preview = this.querySelector('.card-img-bottom');
-        preview.style.display = "block";
-        preview.play();
+        playPreview(this.querySelector('.card-img-bottom'));
       });
       // Add listener to show thumbnail on mouse leave
       imageWrapper.addEventListener("mouseleave", function () {
-        var thumbnail = this.querySelector('.card-img-top');
-        thumbnail.style.display = "block";
-        var preview = this.querySelector('.card-img-bottom');
-        preview.style.display = "none";
-        preview.pause();
+        stopPreview(this.querySelector('.card-img-bottom'));
       });
-      // <video autoplay="false" loop="true" muted="true">
+      // <video loop muted playsinline>, laid over the thumbnail (see index.css)
       var cardImageBottom = document.createElement("video");
       cardImageBottom.classList.add("card-img-bottom");
-      cardImageBottom.style.display = "none";
       cardImageBottom.setAttribute("loop", "");
+      cardImageBottom.setAttribute("playsinline", "");
       cardImageBottom.setAttribute("muted", "");
       cardImageBottom.muted = true;
       // <source src="..." type="video/mp4">
@@ -384,47 +410,19 @@ function setupMobileVideoPreviewObserver() {
     entries.forEach(entry => {
       // Get the image wrapper div that contains both thumbnail and video
       const imageWrapper = entry.target;
-      const thumbnail = imageWrapper.querySelector('.card-img-top');
       const videoPreview = imageWrapper.querySelector('.card-img-bottom');
-
-      // Only proceed if we have both elements
-      if (!thumbnail || !videoPreview) return;
+      if (!videoPreview) return;
 
       if (entry.isIntersecting) {
-        // Show video when in middle third
-        thumbnail.style.display = "none";
-        videoPreview.style.display = "block";
-
-        // Only try to play if the user has interacted with the page
+        // Play when in middle third, once the user has interacted with the page
+        videoPreview.classList.add("in-view");
         if (hasUserInteracted) {
-          // Set src attribute only when in view to avoid excessive video loads
-          if (!videoPreview.src && videoPreview.querySelector('source')) {
-            videoPreview.src = videoPreview.querySelector('source').src;
-          }
-
-          // Force autoplay with muted attribute
-          videoPreview.muted = true;
-          videoPreview.setAttribute("muted", "");
-          videoPreview.setAttribute("playsinline", "");
-
-          const playPromise = videoPreview.play();
-          if (playPromise !== undefined) {
-            playPromise.catch(error => {
-              console.log("Auto-play was prevented:", error);
-            });
-          }
+          playPreview(videoPreview);
         }
       } else {
-        // Show thumbnail when outside middle third
-        thumbnail.style.display = "block";
-        videoPreview.style.display = "none";
-
-        // Pause to conserve resources
-        try {
-          videoPreview.pause();
-        } catch (e) {
-          // Ignore errors on pause
-        }
+        // Outside the middle third the thumbnail beneath shows again
+        videoPreview.classList.remove("in-view");
+        stopPreview(videoPreview);
       }
     });
   }, options);
@@ -503,14 +501,8 @@ function initVideoPreview() {
         // Reset all videos to thumbnail state
         const videos = document.querySelectorAll('.card-img-bottom');
         videos.forEach(video => {
-          video.style.display = "none";
-          video.pause();
-
-          // Show the corresponding thumbnail
-          const thumbnail = video.parentElement.querySelector('.card-img-top');
-          if (thumbnail) {
-            thumbnail.style.display = "block";
-          }
+          video.classList.remove("in-view");
+          stopPreview(video);
         });
       }
       else if (!wasMobile && isMobile) {
@@ -532,24 +524,8 @@ function enableVideoPlayback() {
     console.log("User interaction detected, enabling video playback");
     hasUserInteracted = true;
 
-    // Find all currently visible videos and try to play them
-    const visibleVideos = document.querySelectorAll('.card-img-bottom[style="display: block;"]');
-    visibleVideos.forEach(video => {
-      // Set necessary attributes for mobile playback
-      video.muted = true;
-      video.setAttribute("muted", "");
-      video.setAttribute("playsinline", "");
-
-      // Try to load and play the video
-      if (video.querySelector('source') && !video.src) {
-        video.src = video.querySelector('source').src;
-      }
-
-      video.play().catch(e => {
-        // Just log errors, don't stop execution
-        console.log("Could not autoplay:", e);
-      });
-    });
+    // Play the videos already in the middle third
+    document.querySelectorAll('.card-img-bottom.in-view').forEach(playPreview);
   }
 }
 
