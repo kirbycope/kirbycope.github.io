@@ -1,3 +1,11 @@
+/** Button text for a project's "view" link, by the link's host. */
+var viewSites = {
+  "nexusmods.com": "Nexus Mods",
+  "curseforge.com": "CurseForge",
+  "gamebanana.com": "GameBanana",
+  "planetminecraft.com": "Planet Minecraft"
+};
+
 /** Populates the Projects cards on the page. */
 function populateProjects(projects) {
   for (var i = 0; i < projects.length; i++) {
@@ -34,6 +42,9 @@ function populateProjects(projects) {
     if (projects[i].url === undefined) {
       if (projects[i].play !== undefined) {
         cardImageLink.href = projects[i].play;
+      }
+      else if (projects[i].view !== undefined) {
+        cardImageLink.href = projects[i].view;
       }
     }
     else {
@@ -199,9 +210,10 @@ function populateProjects(projects) {
       details.appendChild(goal);
     }
 
-    // <div class="d-flex justify-content-between align-items-center">
+    // <div class="d-flex flex-wrap justify-content-between align-items-center">
     var buttonContainer = document.createElement("div");
     buttonContainer.classList.add("d-flex");
+    buttonContainer.classList.add("flex-wrap");
     buttonContainer.classList.add("justify-content-between");
     buttonContainer.classList.add("align-items-center");
     cardBody.appendChild(buttonContainer);
@@ -235,6 +247,20 @@ function populateProjects(projects) {
     playLink.href = projects[i].play;
     if (playLink.href.endsWith("undefined") == false) {
       buttonGroup.appendChild(playLink);
+    }
+
+    // <a href="#" class="btn btn-sm btn-outline-secondary" role="button"></a>
+    if (projects[i].view !== undefined) {
+      var viewLink = document.createElement("a");
+      viewLink.href = projects[i].view;
+      var siteName = viewSites[viewLink.hostname.replace(/^www\./, "")] || viewLink.hostname;
+      viewLink.title = "View " + projects[i].title + " on " + siteName;
+      viewLink.classList.add("btn");
+      viewLink.classList.add("btn-sm");
+      viewLink.classList.add("btn-outline-secondary");
+      viewLink.setAttribute("role", "button");
+      viewLink.innerText = siteName;
+      buttonGroup.appendChild(viewLink);
     }
 
     // <small class="text-muted"></small>

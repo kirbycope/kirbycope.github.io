@@ -58,3 +58,11 @@ footer p {
 .text-body-secondary {
   color: #6c757d;
 }
+
+/* Three-column cards are narrowest here; keep a two-button row inside the card */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card .btn-group .btn {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
